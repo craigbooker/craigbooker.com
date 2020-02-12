@@ -1,9 +1,12 @@
 ---
-title: "What is Holding You Back?",
-date: 'YEAR-MM-DD'
+templateKey: 'blog-post'
+title: 'What is Holding You Back?'
+date: '2005-12-19'
+featuredpost: true
+featuredimage: /img/chemex.jpg
 description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
-category: Category Goes Here
-image: '/assets/img/03.jpg'
+tags:
+  - Writing
 ---
 
 What is Holding You Back?
