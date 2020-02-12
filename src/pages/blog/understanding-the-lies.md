@@ -1,6 +1,6 @@
 ---
 templateKey: 'blog-post'
-title: "Understanding the Lies",
+title: 'Understanding the Lies'
 date: '2019-10-27'
 featuredpost: true
 featuredimage: /img/chemex.jpg
