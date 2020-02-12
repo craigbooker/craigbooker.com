@@ -6,8 +6,9 @@ featuredpost: true
 featuredimage: /img/chemex.jpg
 description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
 category: What Does It Mean To Surrender
-image: '/assets/img/03.jpg'
 ---
+
+![chemex](/img/chemex.jpg)
 
 As we pursue the truth in understanding what it means to truly surrender, God honors our heart and will reveal himself to us. When we approach God with a heart that is willing to yield our personal will to the will of God, He will often draw us closer typically through small, but seemingly large acts of obedience. There is nothing that pleases God more than when His children forgo their own will to follow the will of God. Our obedience to His commands reveals to God that we truly love him. There is no better way that we as Jesus followers can show God we mean business than by following His direction. As we learn to surrender our will to His, we will find that sometimes surrender means doing.
 
