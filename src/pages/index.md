@@ -3,7 +3,7 @@ templateKey: index-page
 title: Hello & welcome!
 image: /img/home-jumbotron.jpg
 heading:
-subheading: I am Craig Boooker, a self-taught iOS Developer
+subheading: I am Craig Booker, a self-taught iOS Developer
 mainpitch:
   title: Hello!
   description: >
