@@ -7,7 +7,6 @@ featuredimage: /img/chemex.jpg
 description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
 tags:
   - What I Am Learning
-image: '/assets/img/03.jpg'
 ---
 
 ![chemex](/img/chemex.jpg)
