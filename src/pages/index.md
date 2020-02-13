@@ -3,7 +3,7 @@ templateKey: index-page
 title: Hello! Welcome to craigbooker.com!
 image: /img/home-jumbotron.jpg
 heading:
-subheading: My name is Craig Booker. I'm an iOS Developer and writer based in Oklahoma City, OK.
+subheading: My name is Craig Booker. I'm an iOS Developer and writer.
 mainpitch:
   title: Apps
   description: >
