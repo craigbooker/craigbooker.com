@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
-import cblogo from '../img/CraigBookerInitialsLogo.png'
-import cbInitLogo from '../img/cbInitLogo.svg'
+import cbInitLogo from '../img/CraigBookerInitialsLogo.svg'
+import cbNameLogo from '../img/CraigBookerNameLogo.svg'
 
 const Navbar = class extends React.Component {
 	constructor(props) {
@@ -47,6 +47,11 @@ const Navbar = class extends React.Component {
 								src={cbInitLogo}
 								alt="Craig Booker"
 								style={{ width: '98px', height: '98px' }}
+							/>
+							<img
+								src={cbNameLogo}
+								alt="Craig Booker"
+								style={{ width: '5em', height: '5em' }}
 							/>
 						</Link>
 
