@@ -3,12 +3,12 @@ templateKey: index-page
 title: Hello & welcome!
 image: /img/home-jumbotron.jpg
 heading:
-subheading: I am Craig Booker, a self-taught iOS Developer
+subheading: I am Craig Booker, an iOS Developer and writer
 mainpitch:
   title: Hello!
   description: >
-    I am a self-taught iOS Developer based in Oklahoma City, Oklahoma.
-description: >-
+    I am a self-taught iOS Developer and writer based in Oklahoma City, Oklahoma.
+description: >
   Below are a few things I am working on.
 intro:
   blurbs:
