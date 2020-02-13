@@ -1,23 +1,22 @@
 ---
 templateKey: index-page
-title: Hello & welcome!
+title: Hello! Welcome to craigbooker.com!
 image: /img/home-jumbotron.jpg
 heading:
-subheading: I am Craig Booker, an iOS Developer and writer
+subheading: My name is Craig Booker. I'm an iOS Developer and writer based in Oklahoma City, OK.
 mainpitch:
-  title: Hello!
+  title: Apps
   description: >
-    I am a self-taught iOS Developer and writer based in Oklahoma City, Oklahoma.
-description: >
-  Below are a few things I am working on.
+    Below are a few of my apps I am working on.
+
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/pureTriviaAppPromo.png
       text: >
-        This will feature one of my apps.
-    - image: /img/coffee-gear.png
+        Pure Trivia
+    - image: /img/prayerAppPromo.png
       text: >
-        This will feature another app.
+        Prayer App
 
   heading: What we offer
   description: >
