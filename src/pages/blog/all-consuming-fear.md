@@ -4,7 +4,7 @@ title: 'All Consuming Fear'
 date: '2020-02-07'
 featuredpost: false
 featuredimage: /img/allConsumingFear.jpg
-description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
+description:
 tags:
   - Fear
 ---
@@ -25,6 +25,6 @@ What I have just described is quite common to the last 15 years of my adult life
 
 ## Real Solutions
 
-I wish that I had quick and easily pocketable solutions which would take away the sting or peal back the dominance of your fear. I am NOT a doctor NOR an expert in treating chronic conditions of anxiety or fear. I have purposefully left out a list of my favorite Bible verses as I know that throwing them out there without the proper context can seem to minimize another's suffering. I have seen very basic things provide momentary relief from what seems like a lifetime lived in fear. I have also seen that leaning too much on prescription medication for anxiety, depression, and OCD can prove dangerous. I have been blessed by a great counselor and experienced a lot of good from what they would refer to as cognitive behavioral therapy. What this really boils down to for me is someone who knows how to listen and when to interject in the conversation. I have experienced miracles which only can be likened to those in the Bible.
+I wish that I had quick and easily pocketable solutions which would take away the sting or peal back the dominance of your fear. I am NOT a doctor NOR an expert in treating chronic conditions of anxiety or fear. I have purposefully left out a list of my favorite Bible verses as I know that throwing them out there without the proper context can seem to minimize another's suffering. I have seen [very basic things](https://craigbooker.com/blog/getting-outside-your-head/) provide momentary relief from what seems like a lifetime lived in fear. I have also seen that [leaning too much on prescription medication](https://craigbooker.com/blog/houston-we-have-a-problem/) for anxiety, depression, and OCD can prove dangerous. I have been blessed by a great counselor and experienced a lot of good from what they would refer to as cognitive behavioral therapy. What this really boils down to for me is someone who knows how to listen and when to interject in the conversation. [I have experienced miracles](https://craigbooker.com/blog/a-bizarre-confidence/) which only can be likened to those in the Bible.
 
-I find myself creeping up on 800 words feeling like I should have some hack of a solution which will take away the problem, but I don't. What I hope is that my story has somehow encouraged even just one person who feels like no one understands them. Reach out to me on Twitter if you would like to connect.
+I find myself creeping up on 800 words feeling like I should have some hack of a solution which will take away the problem, but I don't. What I hope is that my story has somehow encouraged even just one person who feels like no one understands them. Reach out to me on [Twitter](https://twitter.com/craigbooker) if you would like to connect.

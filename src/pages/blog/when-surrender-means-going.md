@@ -15,7 +15,7 @@ As I have started exploring more about what it means to surrender, I have discov
 
 ## Why Go?
 
-Understand that God wants to do things in and through you that are only possible by taking us places. When we get out of our comfort zone in order to pursue the Will of God, it is here where we are most malleable. It might be like Abram whom God called to leave his country, his family and go to a place yet to be announced (Genesis 12:1 NIV.) God might call you to, in faith, go like Gideon to save Israel from the Midianites in Judges 6:14 NIV. In 1 Samuel 23:1-5, God called David to go to the town of Keilah to take a stand against the Philistines. It might be like in Matthew 28, where Jesus called His disciples to Go and make disciples.
+Understand that God wants to do things in and through you that are only possible by taking us places. When we get out of our comfort zone in order to pursue the Will of God, it is here where we are most malleable. It might be like Abram whom God called to leave his country, his family and go to a place yet to be announced (Genesis 12:1 NIV.) God might call you to, in faith, go like Gideon to save Israel from the Midianites in Judges 6:14 NIV. In [1 Samuel 23:1-5](https://www.bible.com/bible/111/1sa.23.1-5.niv), God called David to go to the town of Keilah to take a stand against the Philistines. It might be like in Matthew 28, where Jesus called His disciples to Go and make disciples.
 
 ## Believing in God's Plan
 
