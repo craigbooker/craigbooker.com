@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Hello! Welcome to craigbooker.com!
+title: Hello & welcome!
 image: /img/home-jumbotron.jpg
 heading:
 subheading: My name is Craig Booker. I'm an iOS Developer and writer.

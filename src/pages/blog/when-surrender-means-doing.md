@@ -3,9 +3,10 @@ templateKey: 'blog-post'
 title: 'When Surrender Means Doing'
 date: '2020-02-05'
 featuredpost: true
-featuredimage: /img/chemex.jpg
-description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
-category: What Does It Mean To Surrender
+featuredimage: /img/surrender-cpr-3.png
+description: As every believer grows closer to God, they will be called to deeper levels of surrender. Here we talk about when surrender means Doing.
+tags:
+  - What Does It Mean To Surrender
 ---
 
 ![chemex](/img/chemex.jpg)
