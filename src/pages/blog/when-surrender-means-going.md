@@ -3,13 +3,13 @@ templateKey: 'blog-post'
 title: 'When Surrender Means Going'
 date: '2020-01-28'
 featuredpost: true
-featuredimage: /img/surrender-cpr-3.png
+featuredimage: /img/whatMeanSurrender.png
 description: As every believer grows closer to God, they will be called to deeper levels of surrender. Here we talk about when surrender means going.
 tags:
   - What Does It Mean To Surrender
 ---
 
-![chemex](/img/chemex.jpg)
+![chemex](/img/whatMeanSurrender.png)
 
 As I have started exploring more about what it means to surrender, I have discovered that surrendering to God has many layers. When I began my journey in following Jesus, surrender was mainly about recognizing the human condition. So I realized my need for Jesus, understood how I fall short without Him, and responded accordingly by committing my life to living for Jesus. This was and still is the most important step in embracing surrender as a believer. But as every believer grows closer to God, they will soon discover there are other layers of surrender. As a believer navigates along this path of surrender, God will inevitably call you to believe in His Plan, belief in His goodness, and yield all control to Him and Him alone.
 

@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Learning To Surrender'
 date: '2019-12-29'
 featuredpost: false
-featuredimage: /img/learningToSurrender-compressor.png
+featuredimage: /img/learningToSurrender.png
 description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
 tags:
   - My Story
