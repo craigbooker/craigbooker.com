@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Rest APIs With Flask and Python'
 date: '2019-10-19'
 featuredpost: false
-featuredimage: /img/restApisFlaskPython.jpeg
+featuredimage: /img/restApisFlaskPython1.jpeg
 description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
 tags:
   - What I Am Learning

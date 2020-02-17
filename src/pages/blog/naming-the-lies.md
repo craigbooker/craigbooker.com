@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Naming The Lies'
 date: '2019-10-14'
 featuredpost: false
-featuredimage: /img/namingTheLies.png
+featuredimage: /img/namingTheLies1.png
 description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
 tags:
   - My Story
