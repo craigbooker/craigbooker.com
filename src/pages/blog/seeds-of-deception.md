@@ -4,10 +4,12 @@ title: 'Seeds Of Deception'
 date: '2019-08-13'
 featuredpost: false
 featuredimage: /img/seedsOfDeception.png
-description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
+description:
 tags:
   - My Story
 ---
+
+![Text](/img/seedsOfDeception.png)
 
 Have you ever stood beside something so large and wondered how it ever grew to be what it is today? Standing next to one of these redwood trees is enough to make anyone feel a bit small. It is enough to put things into a different perspective. When you stop to think of where this massive redwood tree began, you are taken to a tiny little seed like in the picture. It is hard to imagine that something so large could start with something so small.
 
