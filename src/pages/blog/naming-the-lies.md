@@ -3,11 +3,13 @@ templateKey: 'blog-post'
 title: 'Naming The Lies'
 date: '2019-10-14'
 featuredpost: false
-featuredimage: /img/namingTheLies1.png
-description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
+featuredimage: /img/namingTheLies.png
+description:
 tags:
   - My Story
 ---
+
+![Naming the Lies](/img/namingTheLies.png)
 
 Ideas are powerful. What we think about matters. What we believe ultimately determines our direction. The ideas or thoughts we believe in have the power to direct our steps. They impact our day-to-day whether you want them to or not. I am sure you have heard statements like these, but have you allowed a statement like one of these to grip you. To grip you so tight you actually had to act on it?
 

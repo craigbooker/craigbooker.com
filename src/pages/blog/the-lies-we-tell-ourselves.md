@@ -3,11 +3,13 @@ templateKey: 'blog-post'
 title: 'The Lies We Tell Ourselves'
 date: '2019-08-18'
 featuredpost: false
-featuredimage: /img/theLiesWeTellOurselves.jpg
-description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
+featuredimage: /img/theLiesWeTellOurselves.jpeg
+description:
 tags:
   - My Story
 ---
+
+![The Lies We Tell Ourselves](/img/theLiesWeTellOurselves.jpeg)
 
 Have you ever stopped to think about just what goes on inside your head throughout the moments in your day? In the morning as you stumble out of bed, running late because last night you thought it would be a grand idea to get in one more episode of your favorite show on Netflix . You get to the pharmacy to pickup your medication and there’s one person at the front who should have just gone into the store instead of holding up the entire drive through. Next you miraculously make it to your favorite coffee shop in time for your barista to make your coffee. Stop and pause for a moment to take notice of what you tell yourself and the thoughts which so quickly run through your head. These thoughts, the things you say to yourself, and the feelings buried within the thoughts are what I would call internal dialogue.
 

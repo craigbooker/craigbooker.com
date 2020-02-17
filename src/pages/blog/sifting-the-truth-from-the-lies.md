@@ -4,10 +4,12 @@ title: 'Sifting The Truth From The Lies'
 date: '2019-10-04'
 featuredpost: false
 featuredimage: /img/siftingTheTruthFromTheLies.jpeg
-description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
+description:
 tags:
   - My Story
 ---
+
+![Sifting the Truth from the Lies](/img/siftingTheTruthFromTheLies.jpeg)
 
 ## Sifting the Truth from the Lies
 
