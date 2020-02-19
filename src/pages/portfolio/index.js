@@ -22,7 +22,7 @@ export default class PortfolioIndexPage extends React.Component {
 							padding: '1rem'
 						}}
 					>
-						Projects
+						Portfolio
 					</h1>
 				</div>
 				<section className='section'>

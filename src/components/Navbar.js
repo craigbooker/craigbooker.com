@@ -1,16 +1,15 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import cbInitLogo from '../img/CraigBookerInitialsLogo.svg'
-import cbNameLogo from '../img/CraigBookerNameLogo.svg'
+import React from 'react';
+import { Link } from 'gatsby';
+import github from '../img/github-icon.svg';
+import cbNameLogo from '../img/CraigBookerNameLogo.svg';
 
 const Navbar = class extends React.Component {
 	constructor(props) {
-		super(props)
+		super(props);
 		this.state = {
 			active: false,
 			navBarActiveClass: ''
-		}
+		};
 	}
 
 	toggleHamburger = () => {
@@ -28,24 +27,24 @@ const Navbar = class extends React.Component {
 					  })
 					: this.setState({
 							navBarActiveClass: ''
-					  })
+					  });
 			}
-		)
-	}
+		);
+	};
 
 	render() {
 		return (
 			<nav
-				className="navbar is-transparent"
-				role="navigation"
-				aria-label="main-navigation"
+				className='navbar is-transparent'
+				role='navigation'
+				aria-label='main-navigation'
 			>
-				<div className="container">
-					<div className="navbar-brand">
-						<Link to="/" className="navbar-item" title="Logo">
+				<div className='container'>
+					<div className='navbar-brand'>
+						<Link to='/' className='navbar-item' title='Logo'>
 							<img
 								src={cbNameLogo}
-								alt="Craig Booker"
+								alt='Craig Booker'
 								style={{ width: '5em', height: '5em' }}
 							/>
 						</Link>
@@ -53,7 +52,7 @@ const Navbar = class extends React.Component {
 						{/* Hamburger menu */}
 						<div
 							className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-							data-target="navMenu"
+							data-target='navMenu'
 							onClick={() => this.toggleHamburger()}
 						>
 							<span />
@@ -62,40 +61,40 @@ const Navbar = class extends React.Component {
 						</div>
 					</div>
 					<div
-						id="navMenu"
+						id='navMenu'
 						className={`navbar-menu ${this.state.navBarActiveClass}`}
 					>
-						<div className="navbar-start has-text-centered">
-							<Link className="navbar-item" to="/about">
+						<div className='navbar-start has-text-centered'>
+							<Link className='navbar-item' to='/about'>
 								About
 							</Link>
-							<Link className="navbar-item" to="/apps">
+							<Link className='navbar-item' to='/apps'>
 								Apps
 							</Link>
-							<Link className="navbar-item" to="/blog">
+							<Link className='navbar-item' to='/blog'>
 								Blog
 							</Link>
-							<Link className="navbar-item" to="/contact">
+							<Link className='navbar-item' to='/contact'>
 								Contact
 							</Link>
 						</div>
-						<div className="navbar-end has-text-centered">
+						<div className='navbar-end has-text-centered'>
 							<a
-								className="navbar-item"
-								href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-								target="_blank"
-								rel="noopener noreferrer"
+								className='navbar-item'
+								href='https://github.com/netlify-templates/gatsby-starter-netlify-cms'
+								target='_blank'
+								rel='noopener noreferrer'
 							>
-								<span className="icon">
-									<img src={github} alt="Github" />
+								<span className='icon'>
+									<img src={github} alt='Github' />
 								</span>
 							</a>
 						</div>
 					</div>
 				</div>
 			</nav>
-		)
+		);
 	}
-}
+};
 
-export default Navbar
+export default Navbar;
