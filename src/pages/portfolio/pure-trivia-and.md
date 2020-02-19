@@ -3,7 +3,7 @@ templateKey: 'portfolio-post'
 title: 'Pure Trivia for Android'
 date: '2020-02-18'
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/pureTriviaAppPromo.png
 description:
 tags:
   - Mobile
