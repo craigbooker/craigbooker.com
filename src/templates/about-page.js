@@ -1,9 +1,9 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
-import Features from '../components/Features'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
+import Layout from '../components/Layout';
+import Features from '../components/Features';
+//import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 export const AboutPageTemplate = ({
 	image,
@@ -12,9 +12,9 @@ export const AboutPageTemplate = ({
 	description,
 	intro
 }) => (
-	<div className="content">
+	<div className='content'>
 		<div
-			className="full-width-image-container margin-top-0"
+			className='full-width-image-container margin-top-0'
 			style={{
 				backgroundImage: `url(${
 					!!image.childImageSharp ? image.childImageSharp.fluid.src : image
@@ -22,7 +22,7 @@ export const AboutPageTemplate = ({
 			}}
 		>
 			<h2
-				className="has-text-weight-bold is-size-1"
+				className='has-text-weight-bold is-size-1'
 				style={{
 					boxShadow:
 						'rgb(0, 186, 187, 0.75) 0.5rem 0px 0px, rgb(0, 186, 187, 0.75) -0.5rem 0px 0px',
@@ -35,17 +35,17 @@ export const AboutPageTemplate = ({
 				{title}
 			</h2>
 		</div>
-		<section className="section section--gradient">
-			<div className="container">
-				<div className="section">
-					<div className="columns">
-						<div className="column is-7 is-offset-1">
-							<h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
+		<section className='section section--gradient'>
+			<div className='container'>
+				<div className='section'>
+					<div className='columns'>
+						<div className='column is-7 is-offset-1'>
+							<h3 className='has-text-weight-semibold is-size-2'>{heading}</h3>
 							<p>{description}</p>
 						</div>
 					</div>
-					<div className="columns">
-						<div className="column is-10 is-offset-1">
+					<div className='columns'>
+						<div className='column is-10 is-offset-1'>
 							<Features gridItems={intro.blurbs} />
 						</div>
 					</div>
@@ -53,7 +53,7 @@ export const AboutPageTemplate = ({
 			</div>
 		</section>
 	</div>
-)
+);
 
 AboutPageTemplate.propTypes = {
 	image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -63,10 +63,10 @@ AboutPageTemplate.propTypes = {
 	intro: PropTypes.shape({
 		blurbs: PropTypes.array
 	})
-}
+};
 
 const AboutPage = ({ data }) => {
-	const { frontmatter } = data.markdownRemark
+	const { frontmatter } = data.markdownRemark;
 
 	return (
 		<Layout>
@@ -78,8 +78,8 @@ const AboutPage = ({ data }) => {
 				intro={frontmatter.intro}
 			/>
 		</Layout>
-	)
-}
+	);
+};
 
 AboutPage.propTypes = {
 	data: PropTypes.shape({
@@ -87,9 +87,9 @@ AboutPage.propTypes = {
 			frontmatter: PropTypes.object
 		})
 	})
-}
+};
 
-export default AboutPage
+export default AboutPage;
 
 export const aboutPageQuery = graphql`
 	query AboutPage($id: String!) {
@@ -122,4 +122,4 @@ export const aboutPageQuery = graphql`
 			}
 		}
 	}
-`
+`;
