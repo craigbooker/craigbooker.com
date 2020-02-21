@@ -9,7 +9,7 @@ tags:
   - Lessons From Lyrics
 ---
 
-![Beyond Me](/img/beyondMe.jpg)
+![Beyond Me](/img/beyondMe-bnr.jpg)
 
 This idea that God would somehow do something in us and through us is often quite daunting for me. The thought that the God of the universe would use me to accomplish His work blows my mind! I admittedly am not perfect, so it amazes me that God would choose me, of anyone, to do what only God can do. Does it amaze anyone else that God plants within us dreams which are in step with His Will? Especially when we consider how limited we are as his children?
 
