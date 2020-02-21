@@ -19,7 +19,7 @@ Toby Mac's song "[Beyond Me](https://genius.com/Tobymac-beyond-me-lyrics)" illus
 That You gave me the stars put them out of my reach
 Called me to waters a little too deep "
 
-I believe our God-given dreams serve dual purposes. One, they are a consistent reminder that we need God. If we stop even for a minute and think about what goes into making these dreams happen, we are reminded of our need for God. Second, simply reflecting on their scope and shear size, these dreams remind us that they originated from God for God's glory.
+I believe our God-given dreams serve dual purposes. One, they are a consistent reminder that we need God. If we stop even for a minute and think about what goes into making these dreams happen, we are reminded of our need for God. Second, simply reflecting on their scope and sheer size, these dreams remind us that they originated from God for God's glory.
 
 ## To Serve As A Reminder
 
@@ -27,6 +27,6 @@ I believe that embracing your God-given dreams has purpose beyond the dream itse
 
 ## Bigger Than Me
 
-In Toby Mac's song, "Beyond Me" his lyrics remind me that my God-given dreams are way bigger than me. These dreams not only remind me that I need Him, but that my dreams are only possible when God intervenes. It is with His blessing and His power that these dreams become a reality. If I consider my dreams without God, I quickly give up any hope of their realization.
+In Toby Mac's song, "[Beyond Me](https://genius.com/Tobymac-beyond-me-lyrics)" his lyrics remind me that my God-given dreams are way bigger than me. These dreams not only remind me that I need Him, but that my dreams are only possible when God intervenes. It is with His blessing and His power that these dreams become a reality. If I consider my dreams without God, I quickly give up any hope of their realization.
 
 I would encourage you to take a minute to listen to [Beyond Me](https://genius.com/Tobymac-beyond-me-lyrics), by Toby Mac. Think through the lyrics and reflect on the God-given dreams in your life. Are your dreams bigger than you? Do they remind you of your need for God? If not, you might need to go to God and ask him to help you dream bigger.
