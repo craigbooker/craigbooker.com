@@ -1,8 +1,11 @@
+const config = require('./src/data/config');
+
 module.exports = {
 	siteMetadata: {
 		title: 'The Official site of Craig Booker',
-		description:
-			'Learn more about Craig Booker and check out his articles, apps, and more.'
+		author: config.author,
+		description: config.defaultDescription,
+		siteUrl: config.url
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
@@ -74,4 +77,4 @@ module.exports = {
 		}, // must be after other CSS plugins
 		'gatsby-plugin-netlify' // make sure to keep it last in the array
 	]
-}
+};
