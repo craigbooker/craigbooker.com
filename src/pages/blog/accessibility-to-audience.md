@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Accessibility To Audience'
 date: '2012-07-03'
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog/chemex.jpg
 description:
 tags:
   - Leadership

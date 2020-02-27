@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Continuing to Innovate'
 date: '2012-01-20'
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog/chemex.jpg
 description:
 tags:
   - Apple

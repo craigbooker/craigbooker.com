@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Being Made Holy'
 date: '2018-08-17'
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog/chemex.jpg
 description:
 tags:
   - My Story

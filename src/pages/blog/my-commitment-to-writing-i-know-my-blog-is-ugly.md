@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'My Commitment To Writing - I Know My Blog is Ugly'
 date: '2012-08-21'
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog/chemex.jpg
 description:
 tags:
   - Writing

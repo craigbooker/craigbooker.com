@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Containers, Docker, and DevOps'
 date: '2019-11-03'
 featuredpost: false
-featuredimage: /img/C1PromoDockerMastery.png
+featuredimage: /img/blog/C1PromoDockerMastery.png
 description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
 tags:
   - Lessons Learned

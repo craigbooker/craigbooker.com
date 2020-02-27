@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'The Gold Standard'
 date: '2018-07-12'
 featuredpost: false
-featuredimage: /img/theGoldStandard.jpeg
+featuredimage: /img/blog/theGoldStandard.jpeg
 description:
 tags:
   - My Story

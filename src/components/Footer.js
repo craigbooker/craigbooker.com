@@ -13,13 +13,6 @@ const Footer = class extends React.Component {
 	render() {
 		return (
 			<footer className='footer has-background-black has-text-white-ter'>
-				<div className='content has-text-centered'>
-					<img
-						src={cblogo}
-						alt='Craig Booker'
-						style={{ width: '5em', height: '5em' }}
-					/>
-				</div>
 				<div className='content has-text-centered has-background-black has-text-black-ter'>
 					<div className='container has-background-black has-text-white-ter'>
 						<div className='columns'>

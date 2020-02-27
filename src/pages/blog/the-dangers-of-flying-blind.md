@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'The Dangers of Flying Blind'
 date: '2018-08-09'
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog/chemex.jpg
 description:
 tags:
   - Jesus

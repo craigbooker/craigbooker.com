@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Choose Wisley'
 date: '2018-09-23'
 featuredpost: false
-featuredimage: /img/chooseWisely.jpeg
+featuredimage: /img/blog/chooseWisely.jpeg
 description:
 tags:
   - My Story

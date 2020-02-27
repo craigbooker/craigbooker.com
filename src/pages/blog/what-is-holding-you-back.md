@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'What is Holding You Back?'
 date: '2005-12-19'
 featuredpost: true
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog/chemex.jpg
 description:
 tags:
   - Writing

@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Naming The Lies'
 date: '2019-10-14'
 featuredpost: false
-featuredimage: /img/namingTheLies.png
+featuredimage: /img/blog/namingTheLies.png
 description:
 tags:
   - My Story

@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'A Tricky Situation'
 date: '2018-07-10'
 featuredpost: false
-featuredimage: /img/aTrickySituation.jpeg
+featuredimage: /img/blog/aTrickySituation.jpeg
 description:
 tags:
   - My Story

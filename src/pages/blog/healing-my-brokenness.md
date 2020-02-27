@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Healing My Brokenness'
 date: '2019-05-28'
 featuredpost: false
-featuredimage: /img/healingMyBrokenness-cprss.png
+featuredimage: /img/blog/healingMyBrokenness-cprss.png
 description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
 tags:
   - My Story

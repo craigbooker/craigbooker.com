@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Motivating Factors'
 date: '2019-08-09'
 featuredpost: false
-featuredimage: /img/motivatingFactors.jpeg
+featuredimage: /img/blog/motivatingFactors.jpeg
 description:
 tags:
   - Motivation

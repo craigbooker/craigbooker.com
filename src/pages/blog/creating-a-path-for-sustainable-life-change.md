@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Creating A Path For Sustainable Life-Change'
 date: '2019-01-19'
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog/chemex.jpg
 description:
 tags:
   - Habits

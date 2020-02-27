@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Putting It All On The Line'
 date: '2018-07-21'
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog/chemex.jpg
 description:
 tags:
   - My Story

@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Conforming'
 date: '2012-05-24'
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog/chemex.jpg
 description:
 tags:
   - Thoughts

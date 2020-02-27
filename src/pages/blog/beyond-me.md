@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Beyond Me'
 date: '2020-02-20'
 featuredpost: false
-featuredimage: /img/beyondMe.jpg
+featuredimage: /img/blog/beyondMe.jpg
 description:
 tags:
   - Lessons From Lyrics

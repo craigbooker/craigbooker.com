@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Going About It All Wrong'
 date: '2019-01-28'
 featuredpost: false
-featuredimage: /img/goningAboutItAllWrong-cpr-3.png
+featuredimage: /img/blog/goningAboutItAllWrong-cpr-3.png
 description:
 tags:
   - Application Development

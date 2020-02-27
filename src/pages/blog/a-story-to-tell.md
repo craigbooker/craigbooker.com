@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'A Story To Tell'
 date: '2018-08-21'
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog/chemex.jpg
 description:
 tags:
   - My Story

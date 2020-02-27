@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'The Lies We Tell Ourselves'
 date: '2019-08-18'
 featuredpost: false
-featuredimage: /img/theLiesWeTellOurselves.jpeg
+featuredimage: /img/blog/theLiesWeTellOurselves.jpeg
 description:
 tags:
   - My Story

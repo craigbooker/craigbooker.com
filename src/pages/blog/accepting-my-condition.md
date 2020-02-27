@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Accepting My Condition'
 date: '2018-08-12'
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog/chemex.jpg
 description:
 tags:
   - My Story

@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'All Consuming Fear'
 date: '2020-02-07'
 featuredpost: false
-featuredimage: /img/allConsumingFear.jpg
+featuredimage: /img/blog/allConsumingFear.jpg
 description:
 tags:
   - Fear

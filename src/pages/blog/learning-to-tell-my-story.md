@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Learning To Tell My Story'
 date: '2018-06-29'
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog/chemex.jpg
 description:
 tags:
   - My Story

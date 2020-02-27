@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'The Power of Words'
 date: '2012-07-11'
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog/chemex.jpg
 description:
 tags:
   - Jesus

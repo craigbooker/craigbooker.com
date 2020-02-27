@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Seeds Of Deception'
 date: '2019-08-13'
 featuredpost: false
-featuredimage: /img/seedsOfDeception.png
+featuredimage: /img/blog/seedsOfDeception.png
 description:
 tags:
   - My Story

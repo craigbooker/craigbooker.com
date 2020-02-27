@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'If Only I Could...'
 date: '2018-07-23'
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog/chemex.jpg
 description:
 tags:
   - Identity

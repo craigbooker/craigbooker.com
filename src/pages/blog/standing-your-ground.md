@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Standing Your Ground'
 date: '2012-01-25'
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog/chemex.jpg
 description:
 tags:
   - Jesus

@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Playing the Victim'
 date: '2012-01-13'
 featuredpost: false
-featuredimage: /img/playing-the-victim.jpg
+featuredimage: /img/blog/playing-the-victim.jpg
 description:
 tags:
   - Thoughts

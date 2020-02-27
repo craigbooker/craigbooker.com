@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'My Policy On Recruiter Calls - Please Read Before Contacting'
 date: '2018-01-11'
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog/chemex.jpg
 description:
 tags:
   - Career

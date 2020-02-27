@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Understanding iCloud'
 date: '2018-11-27'
 featuredpost: false
-featuredimage: /img/UnderstandingiCloudPost@2x.png
+featuredimage: /img/blog/UnderstandingiCloudPost@2x.png
 description:
 tags:
   - iCloud

@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Knowing the Whole Plan'
 date: '2017-02-05'
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog/chemex.jpg
 description:
 tags:
   - Jesus

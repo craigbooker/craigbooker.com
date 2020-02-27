@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Fighting Words'
 date: '2012-01-11'
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog/chemex.jpg
 description:
 tags:
   - Jesus

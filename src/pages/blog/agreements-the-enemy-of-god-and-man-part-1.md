@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Agreements - The Enemy of God and Man - Part 1'
 date: '2018-08-02'
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog/chemex.jpg
 description:
 tags:
   - Jesus

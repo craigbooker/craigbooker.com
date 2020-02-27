@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Minimal Acrobatics'
 date: '2013-04-05'
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog/chemex.jpg
 description:
 tags:
   - Application Development

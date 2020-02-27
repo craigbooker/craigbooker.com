@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Uniquely Equipped'
 date: '2017-01-10'
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog/chemex.jpg
 description:
 tags:
   - Jesus

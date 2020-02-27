@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Houston - We Have A Problem'
 date: '2018-12-27'
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog/chemex.jpg
 description:
 tags:
   - MENTAL HEALTH

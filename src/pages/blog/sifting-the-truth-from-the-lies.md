@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Sifting The Truth From The Lies'
 date: '2019-10-04'
 featuredpost: false
-featuredimage: /img/siftingTheTruthFromTheLies.jpeg
+featuredimage: /img/blog/siftingTheTruthFromTheLies.jpeg
 description:
 tags:
   - My Story

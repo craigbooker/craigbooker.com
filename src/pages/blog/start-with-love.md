@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Start With Love'
 date: '2019-05-14'
 featuredpost: false
-featuredimage: /img/startWithLove.jpeg
+featuredimage: /img/blog/startWithLove.jpeg
 description:
 tags:
   - Jesus

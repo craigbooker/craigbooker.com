@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'The App Store'
 date: '2018-07-20'
 featuredpost: false
-featuredimage: /img/appStore.jpeg
+featuredimage: /img/blog/appStore.jpeg
 description:
 tags:
   - My Story

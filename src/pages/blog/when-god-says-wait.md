@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'When God Says...Wait'
 date: '2019-12-26'
 featuredpost: false
-featuredimage: /img/whenGodSays.png
+featuredimage: /img/blog/whenGodSays.png
 description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
 tags:
   - When God Says

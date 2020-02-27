@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'The Why'
 date: '2011-09-26'
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog/chemex.jpg
 description:
 tags:
   - Leadership

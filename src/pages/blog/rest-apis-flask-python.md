@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Rest APIs With Flask and Python'
 date: '2019-10-19'
 featuredpost: false
-featuredimage: /img/restApisFlaskPython.jpg
+featuredimage: /img/blog/restApisFlaskPython.jpg
 description:
 tags:
   - What I Am Learning

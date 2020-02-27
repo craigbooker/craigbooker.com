@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Unseen Obstacles'
 date: '2012-06-08'
 featuredpost: false
-featuredimage: /img/unseenObstacles.jpg
+featuredimage: /img/blog/unseenObstacles.jpg
 description:
 tags:
   - Thoughts

@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Lessons Learned - 080819'
 date: '2018-08-08'
 featuredpost: false
-featuredimage: /img/restApisFlaskPython.jpeg
+featuredimage: /img/blog/restApisFlaskPython.jpg
 description:
 tags:
   - Lessons Learned

@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'Never Stop Telling YourStory'
 date: '2019-04-23'
 featuredpost: false
-featuredimage: /img/neverStopTellingYourStory.png
+featuredimage: /img/blog/neverStopTellingYourStory.png
 description:
 tags:
   - My Story

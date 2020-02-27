@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 title: 'How To Discern Between Good Ideas And God Ideas'
 date: '2017-02-06'
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/blog/chemex.jpg
 description:
 tags:
   - Jesus
