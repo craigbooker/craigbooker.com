@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Standing Your Ground'
-date: '2012-01-25'
-featuredpost: false
 featuredimage: /img/blog/chemex.jpg
+date: '2012-01-25'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Jesus

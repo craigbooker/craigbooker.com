@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Defining Your Dream'
-date: '2019-05-23'
-featuredpost: false
 featuredimage: /img/blog/definingYourDream-cprss.png
+date: '2019-05-23'
+emoji: 😃
+featuredpost: false
 description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
 tags:
   - My Story

@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Accessibility To Audience'
-date: '2012-07-03'
-featuredpost: false
 featuredimage: /img/blog/chemex.jpg
+date: '2012-07-03'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Leadership

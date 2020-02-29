@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'The Case For Telling The Truth'
-date: '2019-08-08'
-featuredpost: false
 featuredimage: /img/blog/theCaseForTellingTheTruth.jpeg
+date: '2019-08-08'
+emoji: 😃
+featuredpost: false
 description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
 tags:
   - Godly Character

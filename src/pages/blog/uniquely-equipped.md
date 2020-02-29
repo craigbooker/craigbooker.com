@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Uniquely Equipped'
-date: '2017-01-10'
-featuredpost: false
 featuredimage: /img/blog/chemex.jpg
+date: '2017-01-10'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Jesus

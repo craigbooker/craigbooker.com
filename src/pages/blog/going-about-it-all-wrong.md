@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Going About It All Wrong'
-date: '2019-01-28'
-featuredpost: false
 featuredimage: /img/blog/goningAboutItAllWrong-cpr-3.png
+date: '2019-01-28'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Application Development

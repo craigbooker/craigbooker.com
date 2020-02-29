@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Re: Everything Wrong With The Apple Universe'
-date: '2013-03-20'
-featuredpost: false
 featuredimage: /img/blog/chemex.jpg
+date: '2013-03-20'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Apple

@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Getting Outside Your Head'
-date: '2018-07-28'
-featuredpost: false
 featuredimage: /img/blog/chemex.jpg
+date: '2018-07-28'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - My Story

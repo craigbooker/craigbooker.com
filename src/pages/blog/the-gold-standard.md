@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'The Gold Standard'
-date: '2018-07-12'
-featuredpost: false
 featuredimage: /img/blog/theGoldStandard.jpeg
+date: '2018-07-12'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - My Story

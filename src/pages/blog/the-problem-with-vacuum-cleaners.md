@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'The Problem With Vacuum Cleaners'
-date: '2013-04-01'
-featuredpost: false
 featuredimage: /img/blog/chemex.jpg
+date: '2013-04-01'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Category Goes Here

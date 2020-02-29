@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'The Value Of Predictability'
-date: '2019-07-16'
-featuredpost: false
 featuredimage: /img/blog/theValueOfPredictability.jpg
+date: '2019-07-16'
+emoji: 😃
+featuredpost: false
 description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
 tags:
   - Thoughts

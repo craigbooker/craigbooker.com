@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'All Consuming Fear'
-date: '2020-02-07'
-featuredpost: false
 featuredimage: /img/blog/allConsumingFear.jpg
+date: '2020-02-07'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Fear

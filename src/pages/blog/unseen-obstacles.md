@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Unseen Obstacles'
-date: '2012-06-08'
-featuredpost: false
 featuredimage: /img/blog/unseenObstacles.jpg
+date: '2012-06-08'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Thoughts

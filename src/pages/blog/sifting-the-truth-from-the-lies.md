@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Sifting The Truth From The Lies'
-date: '2019-10-04'
-featuredpost: false
 featuredimage: /img/blog/siftingTheTruthFromTheLies.jpeg
+date: '2019-10-04'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - My Story

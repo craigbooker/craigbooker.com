@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'A Tricky Situation'
-date: '2018-07-10'
-featuredpost: false
 featuredimage: /img/blog/aTrickySituation.jpeg
+date: '2018-07-10'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - My Story

@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Learning To Tell My Story'
-date: '2018-06-29'
-featuredpost: false
 featuredimage: /img/blog/chemex.jpg
+date: '2018-06-29'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - My Story

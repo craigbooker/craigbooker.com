@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'If Only I Could...'
-date: '2018-07-23'
-featuredpost: false
 featuredimage: /img/blog/chemex.jpg
+date: '2018-07-23'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Identity

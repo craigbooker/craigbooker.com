@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'When Surrender Means Going'
-date: '2020-01-28'
-featuredpost: true
 featuredimage: /img/blog/whatMeanSurrender.png
+date: '2020-01-28'
+emoji: 😃
+featuredpost: true
 description: As every believer grows closer to God, they will be called to deeper levels of surrender. Here we talk about when surrender means going.
 tags:
   - What Does It Mean To Surrender

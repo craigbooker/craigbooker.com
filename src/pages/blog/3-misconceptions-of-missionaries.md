@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: '3 Misconceptions of Missionaries'
-date: '2017-01-19'
-featuredpost: false
 featuredimage: /img/blog/chemex.jpg
+date: '2017-01-19'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Everyday Missionary

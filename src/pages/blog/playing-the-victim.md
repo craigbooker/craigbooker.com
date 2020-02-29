@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Playing the Victim'
-date: '2012-01-13'
-featuredpost: false
 featuredimage: /img/blog/playing-the-victim.jpg
+date: '2012-01-13'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Thoughts

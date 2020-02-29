@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'The Lies We Tell Ourselves'
-date: '2019-08-18'
-featuredpost: false
 featuredimage: /img/blog/theLiesWeTellOurselves.jpeg
+date: '2019-08-18'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - My Story

@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Minimal Acrobatics'
-date: '2013-04-05'
-featuredpost: false
 featuredimage: /img/blog/chemex.jpg
+date: '2013-04-05'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Application Development

@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Run To The Father'
-date: '2020-01-14'
-featuredpost: false
 featuredimage: /img/blog/runToTheFather.png
+date: '2020-01-14'
+emoji: 😃
+featuredpost: false
 description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
 tags:
   - Lessons From Lyrics

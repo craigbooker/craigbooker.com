@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Fighting Words'
-date: '2012-01-11'
-featuredpost: false
 featuredimage: /img/blog/chemex.jpg
+date: '2012-01-11'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Jesus

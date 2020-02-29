@@ -1,9 +1,11 @@
 ---
 templateKey: 'blog-post'
 title: 'What is Holding You Back?'
-date: '2005-12-19'
-featuredpost: true
 featuredimage: /img/blog/chemex.jpg
+date: '2005-12-19'
+emoji: 😃
+featuredpost: true
+
 description:
 tags:
   - Writing

@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Conforming'
-date: '2012-05-24'
-featuredpost: false
 featuredimage: /img/blog/chemex.jpg
+date: '2012-05-24'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Thoughts

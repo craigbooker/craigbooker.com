@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Mindset and Perspective: Living With An Innovator'
-date: '2012-08-29'
-featuredpost: false
 featuredimage: /img/blog/livingWithAnInnovator.jpg
+date: '2012-08-29'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Innovator

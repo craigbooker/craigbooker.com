@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Not The God I Know'
-date: '2018-07-15'
-featuredpost: false
 featuredimage: /img/blog/chemex.jpg
+date: '2018-07-15'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - My Story

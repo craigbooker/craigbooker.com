@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Broken Prayers By Riley Clemmons'
-date: '2019-02-03'
-featuredpost: false
 featuredimage: /img/blog/brokenPrayers.png
+date: '2019-02-03'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Prayer

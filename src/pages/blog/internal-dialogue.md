@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Internal Dialogue'
-date: '2018-07-11'
-featuredpost: false
 featuredimage: /img/blog/chemex.jpg
+date: '2018-07-11'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - My Story

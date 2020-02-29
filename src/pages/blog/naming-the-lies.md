@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Naming The Lies'
-date: '2019-10-14'
-featuredpost: false
 featuredimage: /img/blog/namingTheLies.png
+date: '2019-10-14'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - My Story

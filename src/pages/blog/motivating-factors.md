@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Motivating Factors'
-date: '2019-08-09'
-featuredpost: false
 featuredimage: /img/blog/motivatingFactors.jpeg
+date: '2019-08-09'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Motivation

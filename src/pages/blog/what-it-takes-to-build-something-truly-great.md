@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'What It Takes To Build Something Truly Great'
-date: '2019-05-07'
-featuredpost: false
 featuredimage: /img/blog/whatItTakesToBuild.jpeg
+date: '2019-05-07'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Application Development

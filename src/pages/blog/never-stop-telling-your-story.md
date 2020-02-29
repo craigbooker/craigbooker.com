@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Never Stop Telling YourStory'
-date: '2019-04-23'
-featuredpost: false
 featuredimage: /img/blog/neverStopTellingYourStory.png
+date: '2019-04-23'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - My Story

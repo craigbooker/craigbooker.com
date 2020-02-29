@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Choose Wisley'
-date: '2018-09-23'
-featuredpost: false
 featuredimage: /img/blog/chooseWisely.jpeg
+date: '2018-09-23'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - My Story

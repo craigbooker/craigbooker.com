@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'My App Family'
-date: '2018-07-19'
-featuredpost: false
 featuredimage: /img/blog/myAppleFamily.jpeg
+date: '2018-07-19'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - My Story

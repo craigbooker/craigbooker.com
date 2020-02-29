@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Where Do Missionaries Come From?'
-date: '2017-01-20'
-featuredpost: false
 featuredimage: /img/chemex.jpg
+date: '2017-01-20'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Everyday Missionary

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import github from '../img/github-icon.svg';
-import cbNameLogo from '../img/CraigBookerNameLogo.svg';
 import craigAvatar from '../../static/img/craig-booker.jpg';
 
 const Navbar = class extends React.Component {

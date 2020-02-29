@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'iCloud Photo Stream'
-date: '2018-12-14'
-featuredpost: false
 featuredimage: /img/blog/chemex.jpg
+date: '2018-12-14'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - iCloud

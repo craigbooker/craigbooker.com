@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Lessons Learned - 080819'
-date: '2018-08-08'
-featuredpost: false
 featuredimage: /img/blog/restApisFlaskPython.jpg
+date: '2018-08-08'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Lessons Learned

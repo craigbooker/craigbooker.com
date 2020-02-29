@@ -1,38 +1,41 @@
-import React from 'react'
-import Layout from '../../components/Layout'
-import BlogRoll from '../../components/BlogRoll'
+import React from 'react';
+import Layout from '../../components/Layout';
+import BlogRoll from '../../components/BlogRoll';
 
 export default class BlogIndexPage extends React.Component {
 	render() {
 		return (
 			<Layout>
 				<div
-					className="full-width-image-container margin-top-0"
+					className='full-width-image margin-top-0'
 					style={{
 						backgroundImage: `url('/img/blog-index.jpg')`
 					}}
 				>
-					<h1
-						className="has-text-weight-bold is-size-1"
+					<div
+						className='index-title-wrap'
 						style={{
-							boxShadow:
-								'0.5rem 0 0 rgb(0, 186, 187, 0.75), -0.5rem 0 0 rgb(0, 186, 187, 0.75)',
-							backgroundColor: 'rgb(0, 186, 187, 0.75)',
-							color: 'white',
-							padding: '1rem'
+							display: 'flex',
+							height: '150px',
+							lineHeight: '1',
+							justifyContent: 'space-around',
+							alignItems: 'left',
+							flexDirection: 'column'
 						}}
 					>
-						Latest Stories
-					</h1>
+						<h1 className='has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen'>
+							Latest Articles
+						</h1>
+					</div>
 				</div>
-				<section className="section">
-					<div className="container">
-						<div className="content">
+				<section className='section'>
+					<div className='container'>
+						<div className='content'>
 							<BlogRoll />
 						</div>
 					</div>
 				</section>
 			</Layout>
-		)
+		);
 	}
 }

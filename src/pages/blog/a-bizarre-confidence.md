@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'A Bizarre Confidence'
-date: '2018-08-21'
-featuredpost: false
 featuredimage: /img/blog/chemex.jpg
+date: '2018-08-21'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - My Story

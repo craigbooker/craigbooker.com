@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Start With Love'
-date: '2019-05-14'
-featuredpost: false
 featuredimage: /img/blog/startWithLove.jpeg
+date: '2019-05-14'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Jesus

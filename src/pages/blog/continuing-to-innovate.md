@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Continuing to Innovate'
-date: '2012-01-20'
-featuredpost: false
 featuredimage: /img/blog/chemex.jpg
+date: '2012-01-20'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Apple

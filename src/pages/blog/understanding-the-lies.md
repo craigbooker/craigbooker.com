@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Understanding the Lies'
-date: '2019-10-27'
-featuredpost: true
 featuredimage: /img/blog/understandingTheLies1.png
+date: '2019-10-27'
+emoji: 😃
+featuredpost: true
 description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
 tags:
   - My Story

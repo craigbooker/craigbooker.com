@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Bottled Up Inside'
-date: '2019-03-22 01:21:23'
-featuredpost: false
 featuredimage: /img/blog/chemex.jpg
+date: '2019-03-22 01:21:23'
+emoji: 😃
+featuredpost: false
 description: My thoughts on what keeps writers from writing.
 tags:
   - Writing

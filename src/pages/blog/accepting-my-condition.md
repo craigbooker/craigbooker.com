@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Accepting My Condition'
-date: '2018-08-12'
-featuredpost: false
 featuredimage: /img/blog/chemex.jpg
+date: '2018-08-12'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - My Story

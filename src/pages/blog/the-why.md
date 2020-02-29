@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'The Why'
-date: '2011-09-26'
-featuredpost: false
 featuredimage: /img/blog/chemex.jpg
+date: '2011-09-26'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Leadership

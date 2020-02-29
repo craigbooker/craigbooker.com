@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'The Right People On the Bus'
-date: '2012-07-11'
-featuredpost: false
 featuredimage: /img/blog/schoolBusTrees.jpg
+date: '2012-07-11'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Leadership

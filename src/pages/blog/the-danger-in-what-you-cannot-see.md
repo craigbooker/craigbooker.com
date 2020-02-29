@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'The Danger In What You Cannot See'
-date: '2018-07-22'
-featuredpost: false
 featuredimage: /img/blog/chemex.jpg
+date: '2018-07-22'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - My Story

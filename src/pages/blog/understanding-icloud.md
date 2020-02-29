@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Understanding iCloud'
-date: '2018-11-27'
-featuredpost: false
 featuredimage: /img/blog/UnderstandingiCloudPost@2x.png
+date: '2018-11-27'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - iCloud

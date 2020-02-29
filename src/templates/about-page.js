@@ -14,26 +14,28 @@ export const AboutPageTemplate = ({
 }) => (
 	<div className='content'>
 		<div
-			className='full-width-image-container margin-top-0'
+			className='full-width-image margin-top-0'
 			style={{
 				backgroundImage: `url(${
 					!!image.childImageSharp ? image.childImageSharp.fluid.src : image
 				})`
 			}}
 		>
-			<h2
-				className='has-text-weight-bold is-size-1'
+			<div
+				className='index-title-wrap'
 				style={{
-					boxShadow:
-						'rgb(0, 186, 187, 0.75) 0.5rem 0px 0px, rgb(0, 186, 187, 0.75) -0.5rem 0px 0px',
-					backgroundColor: 'rgb(0, 186, 187, 0.75)',
-					color: 'white',
+					display: 'flex',
+					height: '150px',
 					lineHeight: '1',
-					padding: '0.25em'
+					justifyContent: 'space-around',
+					alignItems: 'left',
+					flexDirection: 'column'
 				}}
 			>
-				{title}
-			</h2>
+				<h1 className='has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen'>
+					{title}
+				</h1>
+			</div>
 		</div>
 		<section className='section section--gradient'>
 			<div className='container'>

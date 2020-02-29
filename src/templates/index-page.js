@@ -28,6 +28,7 @@ export const IndexPageTemplate = ({
 			}}
 		>
 			<div
+				className='index-title-wrap'
 				style={{
 					display: 'flex',
 					height: '150px',
@@ -37,32 +38,12 @@ export const IndexPageTemplate = ({
 					flexDirection: 'column'
 				}}
 			>
-				<h1
-					className='has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen'
-					style={{
-						boxShadow:
-							'rgb(0, 186, 187, 0.75) 0.5rem 0px 0px, rgb(0, 186, 187, 0.75) -0.5rem 0px 0px',
-						backgroundColor: 'rgb(0, 186, 187, 0.75)',
-						color: 'white',
-						lineHeight: '1',
-						padding: '0.25em'
-					}}
-				>
+				<h1 className='has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen'>
 					{title}
 				</h1>
-				<h3
-					className='has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen'
-					style={{
-						boxShadow:
-							'rgb(0, 186, 187, 0.75) 0.5rem 0px 0px, rgb(0, 186, 187, 0.75) -0.5rem 0px 0px',
-						backgroundColor: 'rgb(0, 186, 187, 0.75)',
-						color: 'white',
-						lineHeight: '1',
-						padding: '0.25em'
-					}}
-				>
+				<h2 className='has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen'>
 					{subheading}
-				</h3>
+				</h2>
 			</div>
 		</div>
 		<section className='section section--gradient'>

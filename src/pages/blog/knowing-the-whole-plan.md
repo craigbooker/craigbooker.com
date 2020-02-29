@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Knowing the Whole Plan'
-date: '2017-02-05'
-featuredpost: false
 featuredimage: /img/blog/chemex.jpg
+date: '2017-02-05'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - Jesus

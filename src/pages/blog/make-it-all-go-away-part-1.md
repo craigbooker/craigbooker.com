@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Make It All Go Away - Part 1'
-date: '2018-07-30'
-featuredpost: false
 featuredimage: /img/blog/makeItAllGoAway.png
+date: '2018-07-30'
+emoji: 😃
+featuredpost: false
 description:
 tags:
   - My Story
