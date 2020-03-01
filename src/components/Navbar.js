@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import github from '../img/github-icon.svg';
+import Logo from './Logo';
 import craigAvatar from '../../static/img/craig-booker.jpg';
 
 const Navbar = class extends React.Component {
@@ -11,6 +12,9 @@ const Navbar = class extends React.Component {
 			navBarActiveClass: ''
 		};
 	}
+
+	// Only close nav if it is open
+	handleLinkClick = () => this.state.active;
 
 	toggleHamburger = () => {
 		// toggle the active boolean in the state
@@ -41,8 +45,13 @@ const Navbar = class extends React.Component {
 			>
 				<div className='container'>
 					<div className='navbar-brand'>
-						<Link to='/' className='navbar-item' title='Logo'>
-							<img src={craigAvatar} alt='Craig Booker' />
+						<Link
+							to='/'
+							onClick={this.handleLinkClick}
+							className='navbar-item'
+							title='Logo'
+						>
+							<Logo />
 						</Link>
 						<Link to='/' className='navbar-item' title='LogoText'>
 							<strong className='navbar-item'>Craig Booker</strong>
