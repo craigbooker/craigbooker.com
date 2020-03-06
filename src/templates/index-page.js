@@ -52,14 +52,6 @@ export const IndexPageTemplate = ({
 					<div className='columns'>
 						<div className='column is-10 is-offset-1'>
 							<div className='content'>
-								<div className='content'>
-									<div className='tile'>
-										<h1 className='title'>{mainpitch.title}</h1>
-									</div>
-									<div className='tile'>
-										<h3 className='subtitle'>{mainpitch.description}</h3>
-									</div>
-								</div>
 								<div className='columns'>
 									<div className='column is-12'>
 										<h3 className='has-text-weight-semibold is-size-2'>
@@ -68,14 +60,7 @@ export const IndexPageTemplate = ({
 										<p>{description}</p>
 									</div>
 								</div>
-								<Features gridItems={intro.blurbs} />
-								<div className='columns'>
-									<div className='column is-12 has-text-centered'>
-										<Link className='btn' to='/apps'>
-											See all apps
-										</Link>
-									</div>
-								</div>
+
 								<div className='column is-12'>
 									<h3 className='has-text-weight-semibold is-size-2'>
 										Recent Articles
@@ -84,6 +69,22 @@ export const IndexPageTemplate = ({
 									<div className='column is-12 has-text-centered'>
 										<Link className='btn' to='/blog'>
 											Read more
+										</Link>
+									</div>
+								</div>
+								<div className='content'>
+									<div className='tile'>
+										<h1 className='title'>{mainpitch.title}</h1>
+									</div>
+									<div className='tile'>
+										<h3 className='subtitle'>{mainpitch.description}</h3>
+									</div>
+								</div>
+								<Features gridItems={intro.blurbs} />
+								<div className='columns'>
+									<div className='column is-12 has-text-centered'>
+										<Link className='btn' to='/apps'>
+											See all apps
 										</Link>
 									</div>
 								</div>
