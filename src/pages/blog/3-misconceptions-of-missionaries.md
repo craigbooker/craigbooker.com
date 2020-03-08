@@ -1,6 +1,7 @@
 ---
 templateKey: 'blog-post'
 title: '3 Misconceptions of Missionaries'
+image: /img/blog/chemex.jpg
 featuredimage: /img/blog/chemex.jpg
 date: '2017-01-19'
 emoji: 😃

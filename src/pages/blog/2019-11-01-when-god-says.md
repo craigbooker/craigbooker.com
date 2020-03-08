@@ -1,6 +1,7 @@
 ---
 templateKey: 'blog-post'
 title: 'When God Says...'
+image: /img/blog/whenGodSays.png
 featuredimage: /img/blog/whenGodSays.png
 date: '2019-11-01'
 emoji: 😃
