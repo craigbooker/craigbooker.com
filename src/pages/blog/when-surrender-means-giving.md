@@ -15,7 +15,7 @@ I believe that surrender takes shape in several different ways. One thing is cer
 
 Time is our most valuable resource. It is limited and we cannot create more of it. Once it is given away it is gone forever. This is perhaps one of the areas which we tend to mismanage the most. We try to save it all up for ourselves only to spend it on all the wrong things. We realize its importance, yet we continually neglect properly stewarding our time. If we are willing to listen, God will call us to give of our time to the Church and to others. How we spend our time is often a good reflection of where our heart is at. Do we look for opportunity to share of our time or do we hoard it all only to spend it on endless Netflix binges?
 
-“Because you trusted me, I will give you your life as a reward. I will rescue you and keep you safe. I, the Lord, have spoken!’””
+“Because you trusted me, I will give you your life as a reward. I will rescue you and keep you safe. I, the Lord, have spoken!"
 ‭‭Jeremiah‬ ‭39:18‬ ‭NLT‬‬
 
 ## Talent
