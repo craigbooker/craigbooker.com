@@ -24,7 +24,7 @@ export default class BlogIndexPage extends React.Component {
 						}}
 					>
 						<h1 className='has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen'>
-							Latest Articles
+							Blog
 						</h1>
 					</div>
 				</div>

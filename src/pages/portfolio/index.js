@@ -12,18 +12,21 @@ export default class PortfolioIndexPage extends React.Component {
 						backgroundImage: `url('/img/blog-index.jpg')`
 					}}
 				>
-					<h1
-						className='has-text-weight-bold is-size-1'
+					<div
+						className='index-title-wrap'
 						style={{
-							boxShadow:
-								'0.5rem 0 0 rgb(0, 186, 187, 0.75), -0.5rem 0 0 rgb(0, 186, 187, 0.75)',
-							backgroundColor: 'rgb(0, 186, 187, 0.75)',
-							color: 'white',
-							padding: '1rem'
+							display: 'flex',
+							height: '150px',
+							lineHeight: '1',
+							justifyContent: 'space-around',
+							alignItems: 'left',
+							flexDirection: 'column'
 						}}
 					>
-						Portfolio
-					</h1>
+						<h1 className='has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen'>
+							Projects
+						</h1>
+					</div>
 				</div>
 				<section className='section'>
 					<div className='container'>

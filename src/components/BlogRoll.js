@@ -16,10 +16,13 @@ class BlogRoll extends React.Component {
 							<article className='tile is-parent box notification'>
 								<div className='column is-3'>
 									<PreviewCompatibleImage
-										imageInfo={post.frontmatter.featuredimage}
+										imageInfo={{
+											image: post.frontmatter.featuredimage,
+											alt: `featured image thumbnail for post ${post.frontmatter.title}`
+										}}
 									/>
 								</div>
-								<div className='column is-6'>
+								<div className='column is-9'>
 									<p>
 										<Link
 											className='blogroll-title is-size-4'
@@ -28,33 +31,11 @@ class BlogRoll extends React.Component {
 											{post.frontmatter.title}
 										</Link>
 										<span className='blogroll-subtitle is-block'>
-											<span id={`publish-date-${post.id}`}>
-												<span
-													aria-labelledby={`publish-date-${post.id}`}
-													role='img'
-												>
-													📅
-												</span>{' '}
-												Published on {post.frontmatter.date}
-											</span>{' '}
-											by Craig Booker <br />
-											<span id={`reading-time-${post.id}`}>
-												<span
-													aria-labelledby={`reading-time-${post.id}`}
-													role='img'
-												>
-													🕑
-												</span>{' '}
-												{post.fields.readingTime.text}
-											</span>{' '}
 											<span id={`wordcount-${post.id}`}>
-												<span
-													aria-labelledby={`wordcount-${post.id}`}
-													role='img'
-												>
-													🖹
-												</span>{' '}
-												{post.fields.readingTime.words} words
+												by Craig Booker{' 🖹 '}
+												<span id={`reading-time-${post.id}`}>
+													{post.fields.readingTime.text}
+												</span>
 											</span>
 										</span>
 									</p>
