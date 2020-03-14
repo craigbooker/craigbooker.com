@@ -1,9 +1,9 @@
 ---
 templateKey: 'blog-post'
-title: 'Living In the Midst Of Fear'
+title: 'Thriving In the Midst Of Fear'
 date: '2020-03-14'
 featuredpost: false
-featuredimage: /img/blog/livingInTheMidstOfFear-noTxt-fb.jpg
+featuredimage: /img/blog/thrivingInTheMidstOfFear-noTxt-fb.jpg
 description:
 tags:
   - Fear
