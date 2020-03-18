@@ -47,7 +47,7 @@ class Portfolio extends React.Component {
 									<br />
 									<br />
 									<Link className='button' to={post.fields.slug}>
-										Keep Reading →
+										Details →
 									</Link>
 								</p>
 							</article>

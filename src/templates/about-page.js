@@ -5,13 +5,7 @@ import Layout from '../components/Layout';
 import Features from '../components/Features';
 //import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
-export const AboutPageTemplate = ({
-	image,
-	title,
-	heading,
-	description,
-	intro
-}) => (
+export const AboutPageTemplate = ({ image, title, heading, description }) => (
 	<div className='content'>
 		<div
 			className='full-width-image margin-top-0'
@@ -46,11 +40,6 @@ export const AboutPageTemplate = ({
 							<p>{description}</p>
 						</div>
 					</div>
-					<div className='columns'>
-						<div className='column is-10 is-offset-1'>
-							<Features gridItems={intro.blurbs} />
-						</div>
-					</div>
 				</div>
 			</div>
 		</section>
@@ -61,10 +50,7 @@ AboutPageTemplate.propTypes = {
 	image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
 	title: PropTypes.string,
 	heading: PropTypes.string,
-	description: PropTypes.string,
-	intro: PropTypes.shape({
-		blurbs: PropTypes.array
-	})
+	description: PropTypes.string
 };
 
 const AboutPage = ({ data }) => {
@@ -77,7 +63,6 @@ const AboutPage = ({ data }) => {
 				title={frontmatter.title}
 				heading={frontmatter.heading}
 				description={frontmatter.description}
-				intro={frontmatter.intro}
 			/>
 		</Layout>
 	);
@@ -107,20 +92,6 @@ export const aboutPageQuery = graphql`
 				}
 				heading
 				description
-				intro {
-					blurbs {
-						image {
-							childImageSharp {
-								fluid(maxWidth: 240, quality: 64) {
-									...GatsbyImageSharpFluid
-								}
-							}
-						}
-						text
-					}
-					heading
-					description
-				}
 			}
 		}
 	}
