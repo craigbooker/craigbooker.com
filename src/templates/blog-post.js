@@ -4,6 +4,7 @@ import { kebabCase } from 'lodash';
 import Helmet from 'react-helmet';
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/Layout';
+import PageHeader from '../components/PageHeader';
 import Content, { HTMLContent } from '../components/Content';
 import craigAvatar from '../../static/img/craig-booker.jpg';
 import tagsSVG from '../img/fa-tags.svg';

@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
+import PageHeader from '../components/PageHeader';
 import Features from '../components/Features';
 //import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
@@ -9,34 +10,13 @@ export const AppsPageTemplate = ({
 	image,
 	title,
 	heading,
+	subheading,
 	description,
 	intro
 }) => (
 	<div className='content'>
-		<div
-			className='full-width-image margin-top-0'
-			style={{
-				backgroundImage: `url(${
-					!!image.childImageSharp ? image.childImageSharp.fluid.src : image
-				})`
-			}}
-		>
-			<div
-				className='index-title-wrap'
-				style={{
-					display: 'flex',
-					height: '150px',
-					lineHeight: '1',
-					justifyContent: 'space-around',
-					alignItems: 'left',
-					flexDirection: 'column'
-				}}
-			>
-				<h1 className='has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen'>
-					{title}
-				</h1>
-			</div>
-		</div>
+		<PageHeader title={title} subheading={subheading} image={image} />
+
 		<section className='section section--gradient'>
 			<div className='container'>
 				<div className='section'>

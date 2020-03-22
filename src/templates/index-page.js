@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
+import PageHeader from '../components/PageHeader';
 import FeaturedPosts from '../components/FeaturedPosts';
 import FeaturedPortfolio from '../components/FeaturedPortfolio';
 
@@ -14,35 +15,7 @@ export const IndexPageTemplate = ({
 	description
 }) => (
 	<div>
-		<div
-			className='full-width-image margin-top-0'
-			style={{
-				backgroundImage: `url(${
-					!!image.childImageSharp ? image.childImageSharp.fluid.src : image
-				})`,
-				backgroundPosition: `top left`,
-				backgroundAttachment: `fixed`
-			}}
-		>
-			<div
-				className='index-title-wrap'
-				style={{
-					display: 'flex',
-					height: '150px',
-					lineHeight: '1',
-					justifyContent: 'space-around',
-					alignItems: 'left',
-					flexDirection: 'column'
-				}}
-			>
-				<h1 className='has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen'>
-					{title}
-				</h1>
-				<h2 className='has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen'>
-					{subheading}
-				</h2>
-			</div>
-		</div>
+		<PageHeader title={title} subheading={subheading} image={image} />
 		<section className='section section--gradient'>
 			<div className='container'>
 				<div className='section'>
