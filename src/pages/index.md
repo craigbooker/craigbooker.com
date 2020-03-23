@@ -3,7 +3,7 @@ templateKey: index-page
 title: Hello & welcome!
 image: /img/home-jumbotron.jpg
 heading:
-subheading: My name is Craig Booker. I'm an iOS developer and writer.
+subheading: My name is Craig Booker. I'm an Software Developer and Writer.
 mainpitch:
   title: Apps
   description: >
