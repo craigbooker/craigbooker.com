@@ -4,7 +4,8 @@ import { kebabCase } from 'lodash';
 import Helmet from 'react-helmet';
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/Layout';
-import PageHeader from '../components/PageHeader';
+import PortfolioPageHeader from '../components/PortfolioPageHeader';
+
 import Content, { HTMLContent } from '../components/Content';
 import craigAvatar from '../../static/img/craig-booker.jpg';
 import tagsSVG from '../img/fa-tags.svg';
@@ -28,43 +29,7 @@ export const PortfolioPostTemplate = ({
 	return (
 		<div className='portfolio-post'>
 			{helmet || ''}
-			<div
-				className='full-width-image margin-top-0'
-				style={{
-					backgroundImage: `url(${
-						!!image.childImageSharp ? image.childImageSharp.fluid.src : image
-					})`,
-					backgroundPosition: `top left`,
-					backgroundAttachment: `fixed`
-				}}
-			>
-				<div className='blog-title-wrap'>
-					<h1 className='has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen'>
-						{title}
-					</h1>
-					<div className='has-text-centered;'>
-						<span id='publish-date'>
-							<span aria-labelledby='publish-date' role='img'>
-								📅
-							</span>{' '}
-							Published on {date}
-						</span>{' '}
-						by Craig Booker{' '}
-						<span id='reading-time'>
-							<span aria-labelledby='reading-time' role='img'>
-								🕑
-							</span>{' '}
-							{readingtime}
-						</span>{' '}
-						<span id='wordcount'>
-							<span aria-labelledby='wordcount' role='img'>
-								🖹
-							</span>{' '}
-							{wordcount} words
-						</span>
-					</div>
-				</div>
-			</div>
+			<PortfolioPageHeader title={title} date={date} image={image} />
 			<div className='container content article'>
 				<div className='columns'>
 					<div className='column is-10 is-offset-1'>
