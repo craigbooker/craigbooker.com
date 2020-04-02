@@ -15,6 +15,9 @@ Not being content with what I had heard and wanting to be sure of what I thought
 
 Now what I wanted was a big neon sign, something with more clarity, which I could point to and remember. What I received looked much different. I felt this overwhelming sense of reassurance. Over the next few weeks to months I continued asking God if I was going in the correct direction. The good thing was that this was typically a slow time for my former business. This made it easier in what could have been a really tough time.
 
+[Isaiah 43:19](https://my.bible.com/bible/116/ISA.43.19)<br/>
+'For I am about to do something new. See, I have already begun! Do you not see it? I will make a pathway through the wilderness. I will create rivers in the dry wasteland.'
+
 I think most would ask, why did God tell you to shut down your core business? The answer I received was that God was doing something new. He began working in an area I had long dreamed of, but thought was merely a dream. I had been longing to work in software development again, but my skills were not quite there professionally. But God was doing something new. When I felt the itch to go back to hardware(what I knew), He reassured me He is doing something new.
 
 So here I was, no business, no income, no nothing. So I began to work towards that something new. I continued pushing ahead learning new skills I thought would be helpful. Many times I thought I was stabbing in the dark. Many times I lost my way. But God kept bringing me back to, He is doing something new.
