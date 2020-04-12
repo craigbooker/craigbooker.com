@@ -3,10 +3,10 @@ templateKey: 'blog-post'
 title: 'When Surrender Means Giving'
 date: '2020-03-08'
 featuredpost: false
-featuredimage: /img/blog/whatMeanSurrender.png
+featuredimage: /img/blog/whatDoesItMeanToSurrender-noTxt-fb.jpg
 description:
 tags:
-  - What It Means to Surrender
+  - What Does It Mean To Surrender
 ---
 
 I believe that surrender takes shape in several different ways. One thing is certain, if you follow Jesus long enough, one of the ways God will ultimately call you to surrender is through giving. Giving is not just something God does, it is a part of His character. Giving(generous) is who He is. By responding to God’s prompts to give, we show God we trust Him and we want to be more like Him. As we begin seeing the world through God’s lens of generosity, we will discover opportunities to give of our time, talent, and resources.

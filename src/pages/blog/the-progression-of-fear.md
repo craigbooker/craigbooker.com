@@ -27,6 +27,7 @@ What I have seen from years of fighting anxiety is that effectively battling anx
 
 From a high-level perspective, anxiety often occurs when we take our focus off of God and place it on our situation. For a non-believer this would occur when they take their focus off of their current truth and start to focus on their situation. As believers, we begin to feel the grip of anxiety when we lose sight of who God is and who we are in relation to God. In most cases, we often do so without even realizing this is happening.
 
+
 As anxiety begins to pile on top of more anxiety, we often lose our footing, spiraling out of control. As the level of anxiety mounts, we become less and less capable of pulling ourselves out of this downward spiral on our own. Reality becomes less and less a part of the conversation as we bow to our worst fears.
 
 ## Living By A New Playbook
