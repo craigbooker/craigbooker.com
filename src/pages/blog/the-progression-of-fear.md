@@ -21,7 +21,7 @@ We are all facing a world with new realities as COVID19 reaks havoc on the lives
 
 ## The Case For Building Awareness and Understanding
 
-What I have seen from years of fighting anxiety is that effectively battling anxiety is a mutli-layered approach. We do not find longterm success by simply masking the symptoms. I personally experienced this approach, only masking the symptoms, for twelve long years. What I learned is that proper treatment is more than merely alleviating symptoms. Proper treatment includes building awareness and understanding in order to make true progress. Often, masking the syptoms is needed to get to a place where one can find the root cause of their anxiety. Once an individual discovers the root of their anxiety, they can begin taking steps towards addressing the trauma and lies which lead them down this path in the first place.
+What I have seen from years of fighting anxiety is that effectively battling anxiety is a mutli-layered approach. We do not find longterm success by simply masking the symptoms. I personally experienced this approach, only masking the symptoms, for twelve long years. What I learned is that proper treatment is more than merely alleviating symptoms. Proper treatment includes building awareness and understanding in order to make true progress. Often, masking the symptoms is needed to get to a place where one can find the root cause of their anxiety. Once an individual discovers the root of their anxiety, they can begin taking steps towards addressing the trauma and lies which lead them down this path in the first place.
 
 ## Understanding Anxiety's Progression
 

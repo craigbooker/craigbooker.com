@@ -43,6 +43,6 @@ If you are married, you might be tempted to play the spouse card here. Do not pu
 
 ## My Takeaways
 
-My big takeaway from all of this is to not ignore major life events. Give them the space, resources, and the help you need to deal with them. Our dialy habits are often good indicators of our mental health. Keep an eye on your habits. Habits that got you into this mess, won't get you out. When you or your friends recognize a major life event, unhealthy habit, or a lack of support system, it is time to make some changes.
+My big takeaway from all of this is to not ignore major life events. Give them the space, resources, and the help you need to deal with them. Our daily habits are often good indicators of our mental health. Keep an eye on your habits. Habits that got you into this mess, won't get you out. When you or your friends recognize a major life event, unhealthy habit, or a lack of support system, it is time to make some changes.
 
 I hope all of this brings to light what can happen when we do not take proper care of ourselves or our fear.
