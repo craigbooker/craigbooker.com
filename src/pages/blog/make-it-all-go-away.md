@@ -1,11 +1,12 @@
 ---
 templateKey: 'blog-post'
-title: 'Make It All Go Away - Part 1'
+title: 'Make It All Go Away'
 featuredimage: /img/blog/makeItAllGoAway-noTxt-fb.jpg
 date: '2018-07-30'
 emoji: 😃
 featuredpost: false
 description:
+series: Make It All Go Away
 tags:
   - My Story
 ---

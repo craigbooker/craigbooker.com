@@ -1,11 +1,12 @@
 ---
 templateKey: 'blog-post'
-title: 'Make It All Go Away - Part 3'
+title: 'Identifying the Lies'
 featuredimage: /img/blog/makeItAllGoAway-noTxt-fb.jpg
 date: '2020-04-16'
 emoji: 😃
 featuredpost: false
 description:
+series: Make It All Go Away
 tags:
   - My Story
 ---

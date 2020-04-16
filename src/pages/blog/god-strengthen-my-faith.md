@@ -1,11 +1,12 @@
 ---
 templateKey: 'blog-post'
-title: 'Make It All Go Away - Part 2'
+title: 'God, Strengthen My Faith'
 featuredimage: /img/blog/makeItAllGoAway-noTxt-fb.jpg
 date: '2018-07-31'
 emoji: 😃
 featuredpost: false
 description:
+series: Make It All Go Away
 tags:
   - My Story
 ---
