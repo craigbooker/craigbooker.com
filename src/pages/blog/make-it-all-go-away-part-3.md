@@ -1,7 +1,7 @@
 ---
 templateKey: 'blog-post'
 title: 'Make It All Go Away - Part 3'
-featuredimage: /img/blog/makeItAllGoAway.png
+featuredimage: /img/blog/makeItAllGoAway-noTxt-fb.jpg
 date: '2020-04-16'
 emoji: 😃
 featuredpost: false
