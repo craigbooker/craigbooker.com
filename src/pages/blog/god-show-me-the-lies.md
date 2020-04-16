@@ -1,6 +1,6 @@
 ---
 templateKey: 'blog-post'
-title: 'God Show Me the Lies'
+title: 'God, Show Me the Lies'
 featuredimage: /img/blog/makeItAllGoAway-noTxt-fb.jpg
 date: '2020-04-16'
 emoji: 😃
@@ -13,7 +13,7 @@ tags:
 
 # Identifying the Lies
 
-In [part 2 of, Making It All Go Away](https://www.craigbooker.com/blog/make-it-all-go-away-part-2/), we came to the realization that we might not have the faith to effectively ask God to make it all go away. We prayed asking God to strengthen our faith. When fear grips someone as much as it had a hold on me, you begin to accept lies as truth. The longer we believe in the lies, the blurrier the line between the truth and lies becomes. Essentially, the lies become our truth. As long as we believe the lies at any level, we are unable to find true freedom from our fear and anxiety.
+In [God, Strengthen My Faith](https://www.craigbooker.com/blog/god-strengthen-my-faith/), we came to the realization that we might not have the faith to effectively ask God to make it all go away. We prayed asking God to strengthen our faith. When fear grips someone as much as it had a hold on me, you begin to accept lies as truth. The longer we believe in the lies, the blurrier the line between the truth and lies becomes. Essentially, the lies become our truth. As long as we believe the lies at any level, we are unable to find true freedom from our fear and anxiety.
 
 ## Danger Ahead
 
@@ -34,6 +34,6 @@ A second option is to ask a trusted friend if there are any lies they see us bel
 
 ## Today's Takeaway - Identify the Lies
 
-Building on what we learned in [part 2 of, Making It All Go Away](https://www.craigbooker.com/blog/make-it-all-go-away-part-2/), let us start again by asking God to strengthen our faith. Next we should ask God the question, what lies am I believing which set themself up against the Word of God?
+Building on what we learned in [God, Strengthen My Faith](https://www.craigbooker.com/blog/god-strengthen-my-faith/), let us start again by asking God to strengthen our faith. Next we should ask God the question, what lies am I believing which set themself up against the Word of God?
 
 1. Write down these lies as the Holy Spirit reveals them to you.
