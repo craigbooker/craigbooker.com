@@ -1,6 +1,6 @@
 ---
 templateKey: 'blog-post'
-title: 'Identifying the Lies'
+title: 'God Show Me the Lies'
 featuredimage: /img/blog/makeItAllGoAway-noTxt-fb.jpg
 date: '2020-04-16'
 emoji: 😃
