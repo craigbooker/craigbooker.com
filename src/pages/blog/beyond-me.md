@@ -1,7 +1,7 @@
 ---
 templateKey: 'blog-post'
 title: 'Beyond Me'
-featuredimage: /img/blog/beyondMe.jpg
+featuredimage: /img/blog/beyondMe-noTxt-fb.jpg
 date: '2020-02-20'
 emoji: 😃
 featuredpost: false

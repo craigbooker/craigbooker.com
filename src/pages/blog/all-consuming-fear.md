@@ -1,7 +1,7 @@
 ---
 templateKey: 'blog-post'
 title: 'All Consuming Fear'
-featuredimage: /img/blog/allConsumingFear.jpg
+featuredimage: /img/blog/allConsumingFear-noTxt-fb.jpg
 date: '2020-02-07'
 emoji: 😃
 featuredpost: false
