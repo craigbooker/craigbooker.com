@@ -1,6 +1,6 @@
 ---
 templateKey: 'blog-post'
-title: 'God, Give Me A BattlePlan'
+title: 'God, Give Me A Battle Plan'
 featuredimage: /img/blog/makeItAllGoAway-noTxt-fb.jpg
 date: '2020-04-18'
 emoji: 😃
@@ -34,7 +34,7 @@ Craig Groeschel
 
 While I would certainly love to tell you that by doing these things once it all will just go away, but I would not be truthful in telling you so. This process of asking God to strengthen our faith, identifying lies, seeking God's truth, and surrendering the battle to God should become a daily practice for every believer.
 
-## Our Battleplan For Fighting Fear And Anxiety
+## Our Battle Plan For Fighting Fear And Anxiety
 
 1. Start with asking God to strengthen your faith.
 2. Seek God asking Him to reveal any lies you might be believing.
