@@ -18,7 +18,7 @@ Over the years, I have learned to trust His prompting, but one of the most diffi
 
 ## Let Me Pray About That
 
-So what did I do when God called me to take a stand on His behalf?. I reasoned with myself aloud to God that I’ll give it a day, seek God thinking I may have misheard Him, and see what God says to me. Basically, I said, let me pray about it first...yeah...that sounds Godly and reasonable. And how did that turn out? Well..let us just say that I lost sleep, I could not eat, could not find any rest or focus. Essentially, God wrecked me, emotionally and physically.
+So what did I do when God called me to take a stand on His behalf? I reasoned with myself aloud to God that I’ll give it a day, seek God thinking I may have misheard Him, and see what God says to me. Basically, I said, let me pray about it first...yeah...that sounds Godly and reasonable. And how did that turn out? Well..let us just say that I lost sleep, I could not eat, could not find any rest or focus. Essentially, God wrecked me, emotionally and physically.
 
 ## What I Should Have Done
 
