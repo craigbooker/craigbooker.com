@@ -12,7 +12,7 @@ export const AppsPageTemplate = ({
 	heading,
 	subheading,
 	description,
-	intro
+	intro,
 }) => (
 	<div className='content'>
 		<PageHeader title={title} subheading={subheading} image={image} />
@@ -43,8 +43,8 @@ AppsPageTemplate.propTypes = {
 	heading: PropTypes.string,
 	description: PropTypes.string,
 	intro: PropTypes.shape({
-		blurbs: PropTypes.array
-	})
+		blurbs: PropTypes.array,
+	}),
 };
 
 const AppsPage = ({ data }) => {
@@ -66,9 +66,9 @@ const AppsPage = ({ data }) => {
 AppsPage.propTypes = {
 	data: PropTypes.shape({
 		markdownRemark: PropTypes.shape({
-			frontmatter: PropTypes.object
-		})
-	})
+			frontmatter: PropTypes.object,
+		}),
+	}),
 };
 
 export default AppsPage;
@@ -98,8 +98,6 @@ export const appsPageQuery = graphql`
 						}
 						text
 					}
-					heading
-					description
 				}
 			}
 		}

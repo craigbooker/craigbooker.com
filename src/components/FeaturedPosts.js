@@ -18,7 +18,7 @@ class FeaturedPosts extends React.Component {
 									<PreviewCompatibleImage
 										imageInfo={{
 											image: post.frontmatter.featuredimage,
-											alt: `featured image thumbnail for post ${post.frontmatter.title}`
+											alt: `featured image thumbnail for post ${post.frontmatter.title}`,
 										}}
 									/>
 								</div>
@@ -59,9 +59,9 @@ class FeaturedPosts extends React.Component {
 FeaturedPosts.propTypes = {
 	data: PropTypes.shape({
 		allMarkdownRemark: PropTypes.shape({
-			edges: PropTypes.array
-		})
-	})
+			edges: PropTypes.array,
+		}),
+	}),
 };
 
 export default () => (
@@ -71,7 +71,7 @@ export default () => (
 				allMarkdownRemark(
 					sort: { order: DESC, fields: [frontmatter___date] }
 					filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
-					limit: 2
+					limit: 3
 				) {
 					edges {
 						node {
