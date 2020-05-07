@@ -1,21 +1,31 @@
-import React from 'react';
-import { Link } from 'gatsby';
+import React, {useState} from 'react';
+import AniLink from 'gatsby-plugin-transition-link/AniLink';
+import styles from '../css/navbar.module.css';
+import { FaAlignRight } from 'react-icons/fa';
+import links from '../constants/links';
+import socialIcons from '../constants/social-icons';
 import github from '../img/github-icon.svg';
 import Logo from './Logo';
 
-const Navbar = class extends React.Component {
-	constructor(props) {
+const Navbar = () =>  {
+	const [isOpen, setNav] = useState(false)
+	const toggleNav = () => {
+		setNav(isOpen => !isOpen)
+	}
+	console.log(isOpen)
+
+/* 	constructor(props) {
 		super(props);
 		this.state = {
 			active: false,
 			navBarActiveClass: '',
 		};
-	}
+	} */
 
 	// Only close nav if it is open
-	handleLinkClick = () => this.state.active;
+	//handleLinkClick = () => this.state.active;
 
-	toggleHamburger = () => {
+	/* toggleHamburger = () => {
 		// toggle the active boolean in the state
 		this.setState(
 			{
@@ -33,25 +43,34 @@ const Navbar = class extends React.Component {
 					  });
 			}
 		);
-	};
+	}; */
 
-	render() {
-		return (
-			<nav
-				className='navbar is-transparent'
-				role='navigation'
-				aria-label='main-navigation'
-			>
-				<div className='container'>
-					<div className='navbar-brand'>
-						<Link
-							to='/'
-							onClick={this.handleLinkClick}
-							className='navbar-item'
-							title='Logo'
-						>
-							<Logo />
-						</Link>
+	//render() {
+	return (
+		<nav className={styles.navbar}>
+				<div className={styles.navCenter}>
+					<div className={styles.navHeader}>
+						<img src={logo} alt="Craig Booker logo" />
+						<button type="button" className={styles.logoBtn} onClick={toggleNav}>
+							<FaAlignRight className={styles.logoIcon} />
+						</button>
+					</div>
+					<ul
+          	className={
+            	isOpen
+              	? `${styles.navLinks} ${styles.showNav}`
+              	: `${styles.navLinks}`
+          	}
+        	>
+					  {links.map((item, index) => {
+            	return (
+              	<li key={index}>
+                	<AniLink fade to={item.path}>{item.text}</AniLink>
+              	</li>
+            	)
+          	})}	
+					</ul>
+
 						<Link to='/' className='navbar-item-logo' title='LogoText'>
 							<strong className='navbar-item-logo'>Craig Booker</strong>
 						</Link>
