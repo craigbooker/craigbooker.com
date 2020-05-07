@@ -30,11 +30,11 @@
 	display: block;
 	padding: 1rem 1.25rem;
 	text-decoration: none;
-	text-transform: capitalize;
+	text-transform: uppercase;
 	color: var(--mainBlack);
 	transition: var(--mainTransition);
 	font-weight: bold;
-	letter-spacing: var(--mainSpacing);
+	letter-spacing: var(2px);
 }
 .nav-links a:hover {
 	color: var(--primaryColor);
