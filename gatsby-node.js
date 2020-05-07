@@ -32,16 +32,15 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 			}
 		}
 	`);
-
 	if (result.errors) {
 		reporter.panicOnBuild('Error while running GraphQL query.');
 		return;
 	}
-
 	// Create blog-list pages
 	const posts = result.data.allMarkdownRemark.edges;
-
+	// Set how many pages to show per page
 	const postsPerPage = 4;
+	// Calculate the number of pages
 	const numPages = Math.ceil(posts.length / postsPerPage);
 	Array.from({ length: numPages }).forEach((_, i) => {
 		createPage({
@@ -56,50 +55,22 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 				currentPage: i + 1,
 			},
 		});
-
-		// Tag pages:
-		//let tags = [];
-		// Extract tag data from query
-		const tags = result.data.tagsGroup.group;
-
-		// Eliminate duplicate tags
-		//tags = _.uniq(tags);
-
-		// Make through tag pages
-		tags.forEach((tag) => {
-			createPage({
-				path: `/tags/${_.kebabCase(tag.fieldValue)}/`,
-				component: tagTemplate,
-				context: {
-					tag: tag.fieldValue,
-				},
-			});
+	});
+	// Tag pages:
+	//let tags = [];
+	// Extract tag data from query
+	const tags = result.data.tagsGroup.group;
+	// Make through tag pages
+	tags.forEach((tag) => {
+		createPage({
+			path: `/tags/${_.kebabCase(tag.fieldValue)}/`,
+			component: tagTemplate,
+			context: {
+				tag: tag.fieldValue,
+			},
 		});
-
-		// Iterate through each post, putting all found tags into `tags`
-		/* posts.forEach((edge) => {
-			if (_.get(edge, `node.frontmatter.tags`)) {
-				tags = tags.concat(edge.node.frontmatter.tags);
-			}
-		}) */
-		// Eliminate duplicate tags
-		//tags = _.uniq(tags);
-
-		// Make tag pages
-		/* 		tags.forEach((tag) => {
-			const tagPath = `/tags/${_.kebabCase(tag)}/`;
-
-			createPage({
-				path: tagPath,
-				component: path.resolve(`src/templates/tags.js`),
-				context: {
-					tag,
-				},
-			});
-		}); */
 	});
 };
-
 exports.onCreateNode = ({ node, actions, getNode }) => {
 	const { createNodeField } = actions;
 	fmImagesToRelative(node); // convert image paths for gatsby images
