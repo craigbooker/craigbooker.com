@@ -11,7 +11,7 @@ export default ({ data }) => (
 		<StyledHero home='true'>
 			<Banner
 				title='Hello & welcome!'
-				info='My name is Craig Booker. I am a Writer.'
+				info='My name is Craig Booker. I am a Writer. If you are new here click or tap on Start Here to learn more about me.'
 			>
 				<AniLink fade to='/about' className='btn-white'>
 					Start Here
