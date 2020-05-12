@@ -1,5 +1,9 @@
 export default [
 	{
+		path: '/',
+		text: 'home',
+	},
+	{
 		path: '/about',
 		text: 'start here',
 	},
@@ -10,10 +14,6 @@ export default [
 	{
 		path: '/apps',
 		text: 'apps',
-	},
-	{
-		path: '/projects',
-		text: 'projects',
 	},
 	{
 		path: '/contact',

@@ -6,7 +6,8 @@ const { fmImagesToRelative } = require('gatsby-remark-relative-images');
 exports.createPages = async ({ actions, graphql, reporter }) => {
 	const { createPage } = actions;
 
-	const blogPostTemplate = path.resolve('./src/templates/blog-list.js');
+	//const blogPostTemplateOld = path.resolve('./src/templates/blog-list.js');
+	const blogPostTemplate = path.resolve('./src/templates/blog-template.js');
 	const tagTemplate = path.resolve('src/templates/tags.js');
 
 	const result = await graphql(`

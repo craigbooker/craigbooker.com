@@ -35,6 +35,13 @@ module.exports = {
 		{
 			resolve: 'gatsby-source-filesystem',
 			options: {
+				path: `${__dirname}/content/blog`,
+				name: 'posts',
+			},
+		},
+		{
+			resolve: 'gatsby-source-filesystem',
+			options: {
 				path: `${__dirname}/src/pages`,
 				name: 'pages',
 			},
@@ -77,6 +84,8 @@ module.exports = {
 				],
 			},
 		},
+		`gatsby-plugin-styled-components`,
+		`gatsby-plugin-playground`,
 		`gatsby-plugin-transition-link`,
 		{
 			resolve: 'gatsby-plugin-netlify-cms',

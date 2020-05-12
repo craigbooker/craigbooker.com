@@ -10,7 +10,7 @@ import { withPrefix } from 'gatsby';
 const Layout = ({ children }) => {
 	const { title, description } = useSiteMetadata();
 	return (
-		<div>
+		<>
 			<Helmet>
 				<html lang='en' />
 				<title>{title}</title>
@@ -49,10 +49,12 @@ const Layout = ({ children }) => {
 					content={`${withPrefix('/')}img/og-image.jpg`}
 				/>
 			</Helmet>
-			<Navbar />
-			<div>{children}</div>
-			<Footer />
-		</div>
+			<main>
+				<Navbar />
+				{children}
+				<Footer />
+			</main>
+		</>
 	);
 };
 
