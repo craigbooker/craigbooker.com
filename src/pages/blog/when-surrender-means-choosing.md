@@ -12,7 +12,6 @@ tags:
 
 ## When Surrender Means Choosing
 
-
 As we start to pull all the pieces together, we can begin to see how the many pieces of surrender all fill a need in the bigger puzzle. We start to see that what we thought was the end is really just the beginning. Our holding out on surrender is really delaying the blessings God has in store for each of us. The path forward towards a life of peace, towards our calling, towards the full-life God richly promised each of us, begins with surrender.
 
 The path ahead is a tough one. We now know and are aware of the blessings which await us, if we so choose to fully surrender to God. The challenge is that we have yet to fully solidify the principles of what it means to surrender. It is seemingly much easier to close our eyes, put our fingers in our ears, and run the other way. Do we want to do that knowing what blessings lie ahead?
@@ -30,4 +29,4 @@ Will you choose to intentionally believe in his plan? When things are not lookin
 
 ## Yielding
 
-Will you continue to fool yourself into believing you still are in control? Or are you ready to set aside your will for God’s? These are tough questions. There are a lot of people who are not ready to answers these now and maybe they never will.
+Will you continue to fool yourself into believing you still are in control? Or are you ready to set aside your will for God’s? These are tough questions. There are a lot of people who are not ready to answer these now and maybe they never will.

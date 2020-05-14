@@ -10,7 +10,7 @@ tags:
   - What Does It Mean To Surrender
 ---
 
-I can vaguely remember hearing the words of my childhood pastor doing what is commonly referred to in the church world as an "alter call." Growing up in church, this sort of thing would happen just about every Sunday towards the end of a church service. What sticks out the most in my mind is one of the phrases which was commonly used to describe accepting Christ as your Savior. The pastor or speaker would commonly plead with nonbelievers to "surrender their lives to Christ." From early in my childhood until now as an adult, I would propose that I have probably misunderstood God's call to surrender.
+I can vaguely remember hearing the words of my childhood pastor doing what is commonly referred to in the church world as an "altar call." Growing up in church, this sort of thing would happen just about every Sunday towards the end of a church service. What sticks out the most in my mind is one of the phrases which was commonly used to describe accepting Christ as your Savior. The pastor or speaker would commonly plead with nonbelievers to "surrender their lives to Christ." From early in my childhood until now as an adult, I would propose that I have probably misunderstood God's call to surrender.
 
 ## My Misconception of Surrender
 
@@ -22,8 +22,8 @@ In 2019, as I was pondering my word or theme for the year, I was optimistically 
 
 ## The End
 
-As we begin our journey towards a better understanding what it means to surrender, know that what often seems like the end is really just the beginning. When I was thinking God wanted me to lose it, I was looking through the lens of fear and anxiety. All I saw was the worst possible outcome and I failed to see the full-life God has for me. This full-life is something He promises for you as well, but it is something which is only available by traveling down the path of surrender.
+As we begin our journey towards a better understanding what it means to surrender, know that what often seems like the end is really just the beginning. When I was thinking God wanted me to lose it, I was looking through the lens of fear and anxiety. All I saw was the worst possible outcome and I failed to see the full life God has for me. This full life is something He promises for you as well, but it is something which is only available by traveling down the path of surrender.
 
 ## Just the Beginning
 
-If you really seek to find freedom and experience the full-life God has promised, you must embrace ambiguity and hold fast to obeying God without having all of the details. There will be times where God calls us to go when everything in us tells us to stay. God will call us to do something when the timing is far from our idea of perfect. God will jolt us out of our comfort zone by asking us to give irrationally or by asking us to take a stand. If there is anything I have learned is that God does not need us to do any of these things. He brings us along because it makes us better. He’s not content with leaving you where He found you. So don’t get comfortable.
+If you really seek to find freedom and experience the full life God has promised, you must embrace ambiguity and hold fast to obeying God without having all of the details. There will be times where God calls us to go when everything in us tells us to stay. God will call us to do something when the timing is far from our idea of perfect. God will jolt us out of our comfort zone by asking us to give irrationally or by asking us to take a stand. If there is anything I have learned is that God does not need us to do any of these things. He brings us along because it makes us better. He’s not content with leaving you where He found you. So don’t get comfortable.
