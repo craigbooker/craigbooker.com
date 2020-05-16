@@ -2,9 +2,11 @@ const config = require('./src/data/config');
 
 module.exports = {
 	siteMetadata: {
-		title: 'The Official site of Craig Booker',
-		author: config.author,
+		title: 'Craig Booker | The Official site of Craig Booker.',
 		description: config.defaultDescription,
+		author: config.author,
+		twitterUsername: '@craigbooker',
+		image: '/og-image.jpg',
 		siteUrl: config.url,
 	},
 	plugins: [
