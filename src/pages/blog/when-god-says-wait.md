@@ -1,7 +1,7 @@
 ---
 templateKey: 'blog-post'
 title: 'When God Says...Wait'
-featuredimage: /img/blog/whenGodSays.png
+featuredimage: /img/blog/WhenGodSays-noTxt-fb.jpg
 date: '2019-12-26'
 emoji: 😃
 featuredpost: false
