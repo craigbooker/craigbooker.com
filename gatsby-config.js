@@ -3,9 +3,12 @@ const config = require('./src/data/config');
 module.exports = {
 	siteMetadata: {
 		title: 'The Official site of Craig Booker',
-		author: config.author,
-		description: config.defaultDescription,
-		siteUrl: config.url,
+		description:
+			'This is the offical site of Craig Booker, writer, software developer.',
+		author: 'Craig Booker',
+		twitterUsername: '@craigbooker',
+		image: '/og-image.jpg',
+		siteUrl: 'https://craigbooker.com',
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',

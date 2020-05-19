@@ -4,6 +4,7 @@ module.exports = {
 	author: 'Craig Booker',
 	url: 'https://craigbooker.com',
 	defaultDescription: 'My name is Craig Booker. I am a writer.',
+	twitterUsername: '@craigbooker',
 	socialLinks: {
 		twitter: 'https://twitter.com/craigbooker',
 		facebook: 'https://facebook.com/craigbooker',
