@@ -5,6 +5,7 @@ import { Link, graphql } from 'gatsby';
 import Banner from '../components/Banner';
 
 import Layout from '../components/Layout';
+import StyledHero from '../components/StyledHero';
 import PageHeader from '../components/PageHeader';
 import FeaturedPosts from '../components/FeaturedPosts';
 //import FeaturedPortfolio from '../components/FeaturedPortfolio';
@@ -12,10 +13,12 @@ import FeaturedPosts from '../components/FeaturedPosts';
 export const IndexPageTemplate = ({ image, title, subtitle, description }) => (
 	<div>
 		<PageHeader title={title} subtitle={subtitle} image={image} />
-		<Banner
-			title='Hello & Welcome!'
-			info="My name is Craig Booker. I'm a Writer."
-		></Banner>
+		<StyledHero home='true'>
+			<Banner
+				title='Hello & Welcome!'
+				info="My name is Craig Booker. I'm a Writer."
+			></Banner>
+		</StyledHero>
 		<section className='section section--gradient'>
 			<div className='container'>
 				<div className='section'>
