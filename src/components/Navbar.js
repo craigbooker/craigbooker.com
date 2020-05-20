@@ -1,4 +1,6 @@
 import React from 'react';
+import AniLink from 'gatsby-plugin-transition-link/AniLink';
+import styles from '../css/navbar.module.css';
 import { Link } from 'gatsby';
 import github from '../img/github-icon.svg';
 import Logo from './Logo';
