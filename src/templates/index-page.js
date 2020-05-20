@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 
+import Banner from '../components/Banner';
+
 import Layout from '../components/Layout';
 import PageHeader from '../components/PageHeader';
 import FeaturedPosts from '../components/FeaturedPosts';
@@ -10,6 +12,10 @@ import FeaturedPosts from '../components/FeaturedPosts';
 export const IndexPageTemplate = ({ image, title, subtitle, description }) => (
 	<div>
 		<PageHeader title={title} subtitle={subtitle} image={image} />
+		<Banner
+			title='Hello & Welcome!'
+			info="My name is Craig Booker. I'm a Writer."
+		></Banner>
 		<section className='section section--gradient'>
 			<div className='container'>
 				<div className='section'>
