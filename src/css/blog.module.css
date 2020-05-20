@@ -1,0 +1,30 @@
+// blog roll
+.blog-list-item.is-featured {
+	background: '00BABB';
+}
+
+.blog-list-item header {
+	display: flex;
+	margin-bottom: 1em;
+}
+
+.blog-list-item .featured-thumbnail {
+	flex-basis: 35%;
+	margin: 0 1.5em 0 0;
+}
+
+.blog-list-item .featured-post-thumbnail {
+	flex-basis: 25%;
+	margin: 0 1.5em 0 0;
+}
+
+.blog-title-wrap {
+	background-color: var(--primaryColor);
+	background-image: url('../img/zig-zag.png');
+	color: white;
+	line-height: 1.81;
+	padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}

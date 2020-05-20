@@ -37,7 +37,7 @@ export const AboutPageTemplate = ({
 									</h3>
 									<FeaturedPosts />
 									<div className='column is-12 has-text-centered'>
-										<Link className='btn' to='/blog'>
+										<Link className='btn-primary' to='/blog'>
 											Read more
 										</Link>
 									</div>
@@ -48,7 +48,7 @@ export const AboutPageTemplate = ({
 									</h3>
 									<FeaturedPortfolio />
 									<div className='column is-12 has-text-centered'>
-										<Link className='btn' to='/portfolio'>
+										<Link className='btn-primary' to='/portfolio'>
 											See more projects
 										</Link>
 									</div>

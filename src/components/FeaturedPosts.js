@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from '../css/blog.module.css';
 import { Link, graphql, StaticQuery } from 'gatsby';
 import PreviewCompatibleImage from './PreviewCompatibleImage';
 
@@ -24,10 +25,7 @@ class FeaturedPosts extends React.Component {
 								</div>
 								<div className='column is-9'>
 									<p>
-										<Link
-											className='blogroll-title is-size-4'
-											to={post.fields.slug}
-										>
+										<Link className='blogroll-title' to={post.fields.slug}>
 											{post.frontmatter.title}
 										</Link>
 										<span className='blogroll-subtitle is-block'>
