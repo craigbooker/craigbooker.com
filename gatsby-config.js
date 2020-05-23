@@ -3,8 +3,8 @@ const config = require('./src/data/config');
 module.exports = {
 	siteMetadata: {
 		title: 'Craig Booker | The Official site of Craig Booker.',
-		description: config.defaultDescription,
 		author: config.author,
+		description: config.defaultDescription,
 		twitterUsername: '@craigbooker',
 		image: '/og-image.jpg',
 		siteUrl: config.url,
@@ -12,18 +12,12 @@ module.exports = {
 	plugins: [
 		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-sass',
-		'gatsby-plugin-robots-txt',
+		`gatsby-plugin-sitemap`,
 		{
-			resolve: `gatsby-plugin-sitemap`,
+			resolve: `gatsby-source-filesystem`,
 			options: {
-				exclude: ['/tags/*'],
-			},
-		},
-		{
-			resolve: `gatsby-plugin-google-analytics`,
-			options: {
-				// replace "UA-XXXXXXXXX-X" with your own Tracking ID
-				trackingId: 'UA-127519592-2',
+				name: `images`,
+				path: `${__dirname}/src/images/`,
 			},
 		},
 		{
@@ -34,13 +28,7 @@ module.exports = {
 				name: 'uploads',
 			},
 		},
-		{
-			resolve: 'gatsby-source-filesystem',
-			options: {
-				path: `${__dirname}/src/pages`,
-				name: 'pages',
-			},
-		},
+
 		{
 			resolve: 'gatsby-source-filesystem',
 			options: {
@@ -48,9 +36,6 @@ module.exports = {
 				name: 'images',
 			},
 		},
-		'gatsby-plugin-sharp',
-		'gatsby-transformer-sharp',
-		'gatsby-plugin-transition-link',
 		{
 			resolve: 'gatsby-transformer-remark',
 			options: {
@@ -80,6 +65,20 @@ module.exports = {
 				],
 			},
 		},
+		'gatsby-plugin-robots-txt',
+		{
+			resolve: `gatsby-plugin-google-analytics`,
+			options: {
+				// replace "UA-XXXXXXXXX-X" with your own Tracking ID
+				trackingId: 'UA-127519592-2',
+				host: 'https://www.craigbooker.com',
+				sitemap: 'https://www.craigbooker.com/sitemap.xml',
+				policy: [{ userAgent: '*', allow: '/' }],
+			},
+		},
+		'gatsby-plugin-sharp',
+		'gatsby-transformer-sharp',
+		'gatsby-plugin-transition-link',
 		{
 			resolve: 'gatsby-plugin-netlify-cms',
 			options: {
