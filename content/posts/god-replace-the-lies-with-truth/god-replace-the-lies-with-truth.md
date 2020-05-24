@@ -1,10 +1,9 @@
 ---
-templateKey: 'blog-post'
-title: 'God, Replace the Lies With Truth'
-featuredimage: /img/blog/makeItAllGoAway-noTxt-fb.jpg
-date: '2020-04-17'
-emoji: 😃
-featuredpost: false
+title: God, Replace the Lies With Truth
+slug: god-replace-the-lies-with-truth
+image: ./images/makeItAllGoAway-noTxt-fb.jpg
+date: 2020-04-17
+author: Craig Booker
 description:
 series: Make It All Go Away
 tags:

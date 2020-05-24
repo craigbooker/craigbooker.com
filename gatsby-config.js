@@ -11,7 +11,6 @@ module.exports = {
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
-		'gatsby-plugin-sass',
 		`gatsby-plugin-sitemap`,
 		{
 			resolve: `gatsby-source-filesystem`,
@@ -24,7 +23,7 @@ module.exports = {
 			// keep as first gatsby-source-filesystem plugin for gatsby image support
 			resolve: 'gatsby-source-filesystem',
 			options: {
-				path: `${__dirname}/static/img`,
+				path: `${__dirname}/static/images`,
 				name: 'uploads',
 			},
 		},
@@ -32,8 +31,26 @@ module.exports = {
 		{
 			resolve: 'gatsby-source-filesystem',
 			options: {
-				path: `${__dirname}/src/img`,
+				path: `${__dirname}/src/images`,
 				name: 'images',
+			},
+		},
+		{
+			resolve: `gatsby-source-filesystem`,
+			options: {
+				name: `blog`,
+				path: `${__dirname}/content/posts/`,
+			},
+		},
+		`gatsby-remark-images`,
+		{
+			resolve: `gatsby-plugin-mdx`,
+			options: {
+				gatsbyRemarkPlugins: [
+					{
+						resolve: 'gatsby-remark-images',
+					},
+				],
 			},
 		},
 		{
@@ -78,13 +95,10 @@ module.exports = {
 		},
 		'gatsby-plugin-sharp',
 		'gatsby-transformer-sharp',
+		`gatsby-plugin-playground`,
+		'gatsby-plugin-sass',
+		`gatsby-plugin-styled-components`,
 		'gatsby-plugin-transition-link',
-		{
-			resolve: 'gatsby-plugin-netlify-cms',
-			options: {
-				modulePath: `${__dirname}/src/cms/cms.js`,
-			},
-		},
 		{
 			resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
 			options: {

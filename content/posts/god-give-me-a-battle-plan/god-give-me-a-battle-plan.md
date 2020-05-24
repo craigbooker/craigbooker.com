@@ -1,10 +1,9 @@
 ---
-templateKey: 'blog-post'
-title: 'God, Give Me A Battle Plan'
-featuredimage: /img/blog/makeItAllGoAway-noTxt-fb.jpg
-date: '2020-04-18'
-emoji: 😃
-featuredpost: false
+title: God, Give Me A Battle Plan
+slug: god-give-me-a-battle-plan
+image: ./images/makeItAllGoAway-noTxt-fb.jpg
+date: 2020-04-18
+author: Craig Booker
 description:
 series: Make It All Go Away
 tags:

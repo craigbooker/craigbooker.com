@@ -1,10 +1,9 @@
 ---
-templateKey: 'blog-post'
-title: 'Creating A Path For Sustainable Life-Change'
-featuredimage: /img/blog/chemex.jpg
-date: '2019-01-19'
-emoji: 😃
-featuredpost: false
+title: Creating A Path For Sustainable Life-Change
+slug: creating-a-path-for-sustainable-life-change
+image: ./images/chemex.jpg
+date: 2019-01-19
+author: Craig Booker
 description:
 tags:
   - Habits

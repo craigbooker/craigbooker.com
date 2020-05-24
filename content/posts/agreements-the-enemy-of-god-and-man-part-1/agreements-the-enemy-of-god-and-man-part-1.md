@@ -1,10 +1,9 @@
 ---
-templateKey: 'blog-post'
-title: 'Agreements - The Enemy of God and Man - Part 1'
-featuredimage: /img/blog/chemex.jpg
-date: '2018-08-02'
-emoji: 😃
-featuredpost: false
+title: Agreements - The Enemy of God and Man - Part 1
+slug: agreements-the-enemy-of-god-and-man-part-1
+image: ./images/chemex.jpg
+date: 2018-08-02
+author: Craig Booker
 description:
 tags:
   - Jesus

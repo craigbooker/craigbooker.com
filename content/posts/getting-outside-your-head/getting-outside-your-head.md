@@ -1,10 +1,9 @@
 ---
-templateKey: 'blog-post'
-title: 'Getting Outside Your Head'
-featuredimage: /img/blog/chemex.jpg
-date: '2018-07-28'
-emoji: 😃
-featuredpost: false
+title: Getting Outside Your Head
+slug: getting-outside-your-head
+image: ./images/chemex.jpg
+date: 2018-07-28
+author: Craig Booker
 description:
 tags:
   - My Story

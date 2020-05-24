@@ -1,9 +1,9 @@
 ---
-templateKey: 'blog-post'
-title: 'Chosen And Set Apart'
-date: '2020-05-19'
-featuredimage: /img/blog/ChosenAndSetApart-noTxt-fb.jpg
-featuredpost: false
+title: Chosen And Set Apart
+slug: chosen-and-set-apart
+date: 2020-05-19
+image: ./images/ChosenAndSetApart-noTxt-fb.jpg
+author: Craig Booker
 description:
 tags:
   - Prayers Inspired By Scripture

@@ -1,10 +1,9 @@
 ---
-templateKey: 'blog-post'
-title: 'Accessibility To Audience'
-featuredimage: /img/blog/chemex.jpg
-date: '2012-07-03'
-emoji: 😃
-featuredpost: false
+title: Accessibility To Audience
+slug: accessibility-to-audience
+image: ./images/chemex.jpg
+date: 2012-07-03
+author: Craig Booker
 description:
 tags:
   - Leadership

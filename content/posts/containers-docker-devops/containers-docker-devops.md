@@ -1,10 +1,9 @@
 ---
-templateKey: 'blog-post'
-title: 'Containers, Docker, and DevOps'
-featuredimage: /img/blog/C1PromoDockerMastery.png
-date: '2019-11-03'
-emoji: 😃
-featuredpost: false
+title: Containers, Docker, and DevOps
+slug: containers-docker-and-devOps
+image: ./images/C1PromoDockerMastery.png
+date: 2019-11-03
+author: Craig Booker
 description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
 tags:
   - Lessons Learned

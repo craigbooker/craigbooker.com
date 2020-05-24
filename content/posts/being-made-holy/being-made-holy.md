@@ -1,10 +1,9 @@
 ---
-templateKey: 'blog-post'
-title: 'Being Made Holy'
-featuredimage: /img/blog/chemex.jpg
-date: '2018-08-17'
-emoji: 😃
-featuredpost: false
+title: Being Made Holy
+slug: being-made-holy
+image: ./images/being-made-holy.jpg
+date: 2018-08-17
+author: Craig Booker
 description:
 tags:
   - My Story

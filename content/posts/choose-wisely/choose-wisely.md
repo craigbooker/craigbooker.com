@@ -1,16 +1,15 @@
 ---
-templateKey: 'blog-post'
-title: 'Choose Wisley'
-featuredimage: /img/blog/chooseWisely.jpeg
-date: '2018-09-23'
-emoji: 😃
-featuredpost: false
+title: Choose Wisley
+slug: choose-wisley
+image: ./images/chooseWisely.jpeg
+date: 2018-09-23
+author: Craig Booker
 description:
 tags:
   - My Story
 ---
 
-When you experience a move of God all you want to do is tell people about what God has done. Filled with such hope and confidence, all you want to do is share it. So here I was completely intent on telling my story any and every chance I got when something unexpected happened. All of a sudden, I lost all motivation to tell my story. The [bizarre confidence](https://craigbooker.com/a-bizarre-confidence) I had gained in telling my story was gone. I looked up and all of a sudden my story had lost its excitement. What I once felt could not be stopped had come to a screeching halt. So hold on…what has just happened here?! I was just soaring above the trees telling my story of hope to all who might come along and then…thud.
+When you experience a move of God all you want to do is tell people about what God has done. Filled with such hope and confidence, all you want to do is share it. So here I was completely intent on telling my story any and every chance I got when something unexpected happened. All of a sudden, I lost all motivation to tell my story. The [bizarre confidence](https://craigbooker.com/blog/a-bizarre-confidence) I had gained in telling my story was gone. I looked up and all of a sudden my story had lost its excitement. What I once felt could not be stopped had come to a screeching halt. So hold on…what has just happened here?! I was just soaring above the trees telling my story of hope to all who might come along and then…thud.
 
 I awoke with a mouth full of dirt, face firmly planted on the ground. I picked myself up and dusted off the soil from my clothes. Now, I had mentioned in my prior two posts that my story was becoming increasingly more real the more that I told it. So what would happen if I stopped telling it? Would my story be any different? If my story loses steam what happens? Does it change my story?
 

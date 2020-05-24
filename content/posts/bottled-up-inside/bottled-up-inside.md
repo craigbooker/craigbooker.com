@@ -1,10 +1,9 @@
 ---
-templateKey: 'blog-post'
-title: 'Bottled Up Inside'
-featuredimage: /img/blog/chemex.jpg
-date: '2019-03-22 01:21:23'
-emoji: 😃
-featuredpost: false
+title: Bottled Up Inside
+slug: bottled-up-inside
+image: ./images/chemex.jpg
+date: 2019-03-22
+author: Craig Booker
 description: My thoughts on what keeps writers from writing.
 tags:
   - Writing

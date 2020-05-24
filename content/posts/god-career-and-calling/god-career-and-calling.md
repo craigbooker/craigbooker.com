@@ -1,9 +1,9 @@
 ---
-templateKey: 'blog-post'
-title: 'God, Career, and Calling'
-date: '2020-03-16'
-featuredpost: false
-featuredimage: /img/blog/godCareerAndCalling-noTxt-fb.jpg
+title: God, Career, and Calling
+slug: god-career-and-calling
+image: ./images/godCareerAndCalling-noTxt-fb.jpg
+date: 2020-03-16
+author: Craig Booker
 description:
 tags:
   - Career

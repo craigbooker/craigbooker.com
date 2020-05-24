@@ -1,10 +1,9 @@
 ---
-templateKey: 'blog-post'
-title: 'Conforming'
-featuredimage: /img/blog/chemex.jpg
-date: '2012-05-24'
-emoji: 😃
-featuredpost: false
+title: Conforming
+slug: conforming
+image: ./images/chemex.jpg
+date: 2012-05-24
+author: Craig Booker
 description:
 tags:
   - Thoughts

@@ -1,10 +1,9 @@
 ---
-templateKey: 'blog-post'
-title: 'Defining Your Dream'
-featuredimage: /img/blog/definingYourDream-cprss.png
-date: '2019-05-23'
-emoji: 😃
-featuredpost: false
+title: Defining Your Dream
+slug: defining-your-dream
+image: ./images/definingYourDream-cprss.png
+date: 2019-05-23
+author: Craig Booker
 description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
 tags:
   - My Story

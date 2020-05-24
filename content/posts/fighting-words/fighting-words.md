@@ -1,10 +1,9 @@
 ---
-templateKey: 'blog-post'
-title: 'Fighting Words'
-featuredimage: /img/blog/chemex.jpg
-date: '2012-01-11'
-emoji: 😃
-featuredpost: false
+title: Fighting Words
+slug: fighting-words
+image: ./images/fightingWords.jpeg
+date: 2012-01-11
+author: Craig Booker
 description:
 tags:
   - Jesus

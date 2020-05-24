@@ -1,10 +1,9 @@
 ---
-templateKey: 'blog-post'
-title: 'A Tricky Situation'
-featuredimage: /img/blog/aTrickySituation.jpeg
-date: '2018-07-10'
-emoji: 😃
-featuredpost: false
+title: A Tricky Situation
+slug: a-tricky-situation
+image: ./images/aTrickySituation.jpeg
+date: 2018-07-10
+author: Craig Booker
 description:
 tags:
   - My Story

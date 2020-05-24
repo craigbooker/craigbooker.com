@@ -1,10 +1,9 @@
 ---
-templateKey: 'blog-post'
-title: 'Continuing to Innovate'
-featuredimage: /img/blog/chemex.jpg
-date: '2012-01-20'
-emoji: 😃
-featuredpost: false
+title: Continuing to Innovate
+slug: continuing-to-innovate
+image: ./images/chemex.jpg
+date: 2012-01-20
+author: Craig Booker
 description:
 tags:
   - Apple
