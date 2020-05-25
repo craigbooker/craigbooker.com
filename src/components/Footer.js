@@ -31,7 +31,7 @@ const Footer = () => {
         })}
       </div>
       <div className={styles.copyright}>
-        copyright &copy; backroads travel company {new Date().getFullYear()} all
+        copyright &copy; Craig Booker {new Date().getFullYear()} all
         rights reserved
       </div>
     </footer>

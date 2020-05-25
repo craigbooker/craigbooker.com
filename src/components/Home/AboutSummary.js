@@ -17,11 +17,11 @@ const getAboutImage = graphql`
   }
 `
 
-const About = () => {
+const AboutSummary = () => {
   const { aboutImage } = useStaticQuery(getAboutImage)
   return (
     <section className={styles.about}>
-      <Title title="about" subtitle="us" />
+      <Title title="about" subtitle="me" />
       <div className={styles.aboutCenter}>
         <article className={styles.aboutImg}>
           <div className={styles.imgContainer}>
@@ -33,14 +33,9 @@ const About = () => {
           </div>
         </article>
         <article className={styles.aboutInfo}>
-          <h4>explore the difference</h4>
+          <h4>My name is Craig Booker</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
-            excepturi quas atque?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
-            excepturi quas atque?
+            I'm a Writer and Software Developer from Oklahoma City, Oklahoma. I started tinkering with electronics when I was young. I first learned about repairing Apple(iOS) devices when I worked for Apple retail. It was at Apple retail I received my certification to work on what Apple calls small device repair. At that time this included iPhones, iPads, and iPods.
           </p>
 
           <AniLink fade to="/about" className="btn-primary">
@@ -52,4 +47,4 @@ const About = () => {
   )
 }
 
-export default About
+export default AboutSummary

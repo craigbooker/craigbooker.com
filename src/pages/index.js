@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/Layout"
 import Banner from "../components/Banner"
-import About from "../components/Home/About"
+import AboutSummary from "../components/Home/AboutSummary"
 import StyledHero from "../components/StyledHero"
 import SEO from "../components/SEO"
 
@@ -15,7 +15,7 @@ export default ({ data }) => (
         info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, rem."
       />
     </StyledHero>
-    <About />
+    <AboutSummary />
   </Layout>
 )
 

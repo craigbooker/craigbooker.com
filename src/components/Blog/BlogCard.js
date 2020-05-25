@@ -1,23 +1,26 @@
 import React from 'react';
-import styles from '../../css/blog-card.module.css';
 import Image from 'gatsby-image';
+import styles from '../../css/blog-card.module.css';
 import { Link } from 'gatsby';
 
-const BlogCard = ({ blog }) => {
-	const { slug, title, image, published } = blog;
+const BlogCard = ({ post }) => {
+	const { title, date, author, slug } = post.frontmatter;
+	const img = post.frontmatter.image.childImageSharp.fluid
 
 	return (
 		<article className={styles.blog}>
 			<div className={styles.imgContainer}>
-				<Image fluid={image.fluid} className={styles.img} alt='single post' />
+				<Image fluid={img} className={styles.img} alt='single post' />
 
 				<Link className={styles.link} to={`/blog/${slug}`}>
 					read more
 				</Link>
-				<h6 className={styles.date}>{published}</h6>
+				<h6 className={styles.date}>{date}</h6>
 			</div>
 			<div className={styles.footer}>
 				<h4>{title}</h4>
+				<h4>{author}</h4>
+				<p>{post.excerpt}</p>
 			</div>
 		</article>
 	);

@@ -2,8 +2,7 @@ import React from "react"
 
 import Layout from "../components/Layout"
 import Banner from "../components/Banner"
-import About from "../components/Home/About"
-
+import AboutDetails from "../components/About/AboutDetails"
 import StyledHero from "../components/StyledHero"
 import { graphql } from "gatsby"
 import SEO from "../components/SEO"
@@ -14,10 +13,10 @@ export default ({ data }) => (
     <StyledHero>
       <Banner
         title="about"
-        info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, rem."
+        info=""
       />
     </StyledHero>
-    <About />
+    <AboutDetails />
   </Layout>
 )
 

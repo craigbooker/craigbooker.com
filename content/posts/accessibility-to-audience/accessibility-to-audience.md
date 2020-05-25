@@ -11,7 +11,7 @@ tags:
 
 ## Accessibility To Audience
 
-I will never be too busy for my audience. Or at least that is what I tell myself. I believe it will become more difficult to manage my audience as it grows. I see this as a problem and apparently others do as well. For me, at this moment this is not an issue. For fellow bloggers like [Michael Hyatt][http://michaelhyatt.com/leadership-success-accessibility.html], and Andy Stanley this is an issue and I try to learn what I can from them. I believe so strongly in being accessible to my audience that I strive to make this a priority.
+I will never be too busy for my audience. Or at least that is what I tell myself. I believe it will become more difficult to manage my audience as it grows. I see this as a problem and apparently others do as well. For me, at this moment this is not an issue. For fellow bloggers like [Michael Hyatt](http://michaelhyatt.com/leadership-success-accessibility.html), and Andy Stanley this is an issue and I try to learn what I can from them. I believe so strongly in being accessible to my audience that I strive to make this a priority.
 
 ## Think Big
 

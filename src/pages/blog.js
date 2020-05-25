@@ -1,12 +1,46 @@
 import React from "react"
-import { Link } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 import Layout from "../components/Layout"
-const blog = () => {
+import SEO from "../components/SEO"
+import BlogList from "../components/Blog/BlogList"
+
+
+const getPosts = graphql`
+  query MyQuery {
+    allMdx(sort: { fields: frontmatter___date, order: DESC }) {
+      totalCount
+      edges {
+        node {
+          frontmatter {
+            title
+            slug
+            date(formatString: "MMMM Do, YYYY")
+            author
+            image {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid_withWebp
+                }
+              }
+            }
+          }
+          excerpt
+        }
+      }
+    }
+  }
+`
+
+export default () => {
+  const response = useStaticQuery(getPosts)
+  const posts = response.allMdx.edges
+
   return (
     <Layout>
-      hello from blog page<Link to="/">back home</Link>
+
+      <SEO title="blog" description="This is my blog" />
+      <BlogList posts={posts} />
     </Layout>
   )
 }
 
-export default blog
