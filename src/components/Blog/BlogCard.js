@@ -4,7 +4,7 @@ import styles from '../../css/blog-card.module.css';
 import { Link } from 'gatsby';
 
 const BlogCard = ({ post }) => {
-	const { title, date, author, slug } = post.frontmatter;
+	const { title, date, slug } = post.frontmatter;
 	const img = post.frontmatter.image.childImageSharp.fluid
 
 	return (
@@ -19,7 +19,7 @@ const BlogCard = ({ post }) => {
 			</div>
 			<div className={styles.footer}>
 				<h4>{title}</h4>
-				<h4>{author}</h4>
+
 				<p>{post.excerpt}</p>
 			</div>
 		</article>

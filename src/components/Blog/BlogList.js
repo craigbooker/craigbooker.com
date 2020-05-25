@@ -6,7 +6,7 @@ import styles from "../../css/blog.module.css"
 const BlogList = ({ posts }) => {
   return (
     <section className={styles.blog}>
-      <Title title="our" subtitle="blog" />
+      <Title title="blog" subtitle="" />
       <div className={styles.center}>
         {posts.map(({ node }, index) => {
           return <BlogCard key={index} post={node} />
