@@ -44,14 +44,6 @@ const Navbar = class extends React.Component {
 			>
 				<div className='container'>
 					<div className='navbar-brand'>
-						<Link
-							to='/'
-							onClick={this.handleLinkClick}
-							className='navbar-item'
-							title='Logo'
-						>
-							<Logo />
-						</Link>
 						<Link to='/' className='navbar-item-logo' title='LogoText'>
 							<strong className='navbar-item-logo'>Craig Booker</strong>
 						</Link>
@@ -78,14 +70,14 @@ const Navbar = class extends React.Component {
 							>
 								Start Here
 							</Link>
+							<Link className='navbar-item' to='/'>
+								Home
+							</Link>
 							<Link className='navbar-item' to='/blog'>
 								Blog
 							</Link>
 							<Link className='navbar-item' to='/apps'>
 								Apps
-							</Link>
-							<Link className='navbar-item' to='/portfolio'>
-								Projects
 							</Link>
 							<Link className='navbar-item' to='/contact'>
 								Contact

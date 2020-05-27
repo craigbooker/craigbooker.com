@@ -5,7 +5,7 @@ import facebook from '../img/social/facebook.svg';
 import instagram from '../img/social/instagram.svg';
 import twitter from '../img/social/twitter.svg';
 import vimeo from '../img/social/vimeo.svg';
-import config from '../data/config';
+import config from '../../data/siteConfig';
 //const config = require('./src/data/config');
 
 const Footer = class extends React.Component {

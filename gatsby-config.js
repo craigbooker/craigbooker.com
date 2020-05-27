@@ -1,11 +1,11 @@
-const config = require('./src/data/config');
+const config = require('./data/siteConfig');
 
 module.exports = {
 	siteMetadata: {
-		title: 'Craig Booker | The Official site of Craig Booker.',
+		title: config.siteTitle,
 		description: config.defaultDescription,
 		author: config.author,
-		twitterUsername: '@craigbooker',
+		twitterUsername: config.userTwitter,
 		image: '/og-image.jpg',
 		siteUrl: config.url,
 	},
@@ -23,7 +23,7 @@ module.exports = {
 			resolve: `gatsby-plugin-google-analytics`,
 			options: {
 				// replace "UA-XXXXXXXXX-X" with your own Tracking ID
-				trackingId: 'UA-127519592-2',
+				trackingId: config.googleAnalyticsID,
 			},
 		},
 		{

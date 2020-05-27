@@ -4,7 +4,6 @@ import { Link, graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
 import PageHeader from '../components/PageHeader';
-import FeaturedPosts from '../components/FeaturedPosts';
 import FeaturedPortfolio from '../components/FeaturedPortfolio';
 
 export const AboutPageTemplate = ({
@@ -31,17 +30,6 @@ export const AboutPageTemplate = ({
 									</div>
 								</div>
 
-								<div className='column is-12'>
-									<h3 className='has-text-weight-semibold is-size-2'>
-										Recent Articles
-									</h3>
-									<FeaturedPosts />
-									<div className='column is-12 has-text-centered'>
-										<Link className='btn' to='/blog'>
-											Read more
-										</Link>
-									</div>
-								</div>
 								<div className='column is-12'>
 									<h3 className='has-text-weight-semibold is-size-2'>
 										Recent Projects
