@@ -20,7 +20,7 @@ const BlogCard = ({ post }) => {
 			<div className={styles.footer}>
 				<h4>{title}</h4>
 
-				<p>{post.excerpt}</p>
+				{post.excerpt}
 			</div>
 		</article>
 	);

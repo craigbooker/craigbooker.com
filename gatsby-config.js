@@ -1,4 +1,4 @@
-const config = require('./src/data/config');
+const config = require('./data/siteConfig');
 
 module.exports = {
 	siteMetadata: {
@@ -13,33 +13,17 @@ module.exports = {
 		'gatsby-plugin-react-helmet',
 		`gatsby-plugin-sitemap`,
 		{
-			resolve: `gatsby-source-filesystem`,
+			resolve: 'gatsby-source-filesystem',
 			options: {
-				name: `images`,
 				path: `${__dirname}/src/images/`,
-			},
-		},
-		{
-			// keep as first gatsby-source-filesystem plugin for gatsby image support
-			resolve: 'gatsby-source-filesystem',
-			options: {
-				path: `${__dirname}/static/images`,
-				name: 'uploads',
-			},
-		},
-
-		{
-			resolve: 'gatsby-source-filesystem',
-			options: {
-				path: `${__dirname}/src/images`,
 				name: 'images',
 			},
 		},
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
-				name: `blog`,
-				path: `${__dirname}/content/posts/`,
+				name: `posts`,
+				path: `${__dirname}/content/`,
 			},
 		},
 		`gatsby-remark-images`,
@@ -54,35 +38,13 @@ module.exports = {
 			},
 		},
 		{
-			resolve: 'gatsby-transformer-remark',
+			resolve: 'gatsby-plugin-robots-txt',
 			options: {
-				plugins: [
-					`gatsby-remark-reading-time`,
-					{
-						resolve: 'gatsby-remark-relative-images',
-						options: {
-							name: 'uploads',
-						},
-					},
-					{
-						resolve: 'gatsby-remark-images',
-						options: {
-							// It's important to specify the maxWidth (in pixels) of
-							// the content container as this plugin uses this as the
-							// base for generating different widths of each image.
-							maxWidth: 2048,
-						},
-					},
-					{
-						resolve: 'gatsby-remark-copy-linked-files',
-						options: {
-							destinationDir: 'static',
-						},
-					},
-				],
+				host: "https://www.craigbooker.com",
+				sitemap: "https://www.craigbooker.com/sitemap.xml",
+				policy: [{ userAgent: "*", allow: "/" }],
 			},
 		},
-		'gatsby-plugin-robots-txt',
 		{
 			resolve: `gatsby-plugin-google-analytics`,
 			options: {
@@ -99,13 +61,5 @@ module.exports = {
 		'gatsby-plugin-sass',
 		`gatsby-plugin-styled-components`,
 		'gatsby-plugin-transition-link',
-		{
-			resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
-			options: {
-				develop: true, // Activates purging in npm run develop
-				purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
-			},
-		}, // must be after other CSS plugins
-		'gatsby-plugin-netlify', // make sure to keep it last in the array
 	],
 };
