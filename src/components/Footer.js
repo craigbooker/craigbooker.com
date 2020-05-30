@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import styles from '../css/footer.module.css';
 
 import facebook from '../img/social/facebook.svg';
 import instagram from '../img/social/instagram.svg';
@@ -11,7 +12,7 @@ import config from '../../data/siteConfig';
 const Footer = class extends React.Component {
 	render() {
 		return (
-			<footer className='footer has-background-black has-text-white-ter'>
+			<footer className={styles.footer}>
 				<div className='content has-text-centered has-background-black has-text-black-ter'>
 					<div className='container has-background-black has-text-white-ter'>
 						<div className='columns'>

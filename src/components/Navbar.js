@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import github from '../img/github-icon.svg';
-import Logo from './Logo';
 
 const Navbar = class extends React.Component {
 	constructor(props) {
