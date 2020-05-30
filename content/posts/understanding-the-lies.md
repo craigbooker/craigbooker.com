@@ -1,0 +1,53 @@
+---
+templateKey: 'blog-post'
+title: 'Understanding the Lies'
+featuredimage: /img/blog/understandingTheLies1.png
+date: '2019-10-27'
+emoji: 😃
+featuredpost: true
+description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
+tags:
+  - My Story
+---
+
+If we truly seek to embrace the full-life God has created for us, we cannot continue to believe lies which set themselves up against the knowledge of God. These lies lead to agreements and both equally prevent us from living a full life which God created for us. Let us all agree that there is work to be done. We must expose the lies, name the lies and understand them before we go into battle against them. We want to destroy them and rightfully so because of all the hurt they have caused us. Not properly understanding them continues to make us vulnerable to their attacks.,1,p,Take a moment really quick to pray. This is no joke. Pray asking for God’s clarity, His protection, and His blessing as you begin to seek the truth from God.
+
+## How to Understand the Lies?
+
+Keep in mind that the lies always have a purpose. So start by asking what purpose the lies serve in your life? What are the consequences of you believing the lie versus disproving the lie? If you cannot see the consequences, keep asking God to bring clarity to the process. Keep asking yourself about the consequences of believing the lie. For me personally, believing the lie keeps me from my Chazown it keeps me from using my God-given gifts to glorify God, and ultimately it takes me out of the race God has called me to run. Believing the lie for me has ,great ,eternal, consequences. Determine what is at stake here. These consequences ultimately effect God’s Kingdom. If I am not fulfilling the role or part which God created me to play, there is a need which is not being met. So, yeah… these lies have some real consequences. This is not just about me any longer. Trust me in that you will at some point believe that these struggles are isolated to you. Do NOT believe it…keep digging in. Do NOT be surprised if the Enemy shows up in the middle of this in some way. No, I am not saying he is going to magically appear in a red suit wearing horns. Look for his fingerprints, be prepared to see his involvement in your lies, but DO NOT back down!
+
+Caution,A word of warning. When you start to see evidence of the Enemy’s involvement in your lie(s), it is super easy to get scared, to feel intimidated, or to start doubting the process. It is not uncommon to be flooded with weird thoughts or emotions. You might start to think that I, Craig, am a little off-kilter and this is just not for you. Fair enough. I have to admit that all of this stuff can seem kind of strange, but I am not here to sell you on anything. I am simply sharing what is/has been happening in my story. I hope and pray that God will use this in the lives of others to help them find freedom from the lies. If you start down the path and the Enemy shows up, it is time to tell another believer you trust. In fact, I would encourage you to share this with another believer before starting down the path.
+
+## Moving Forward
+
+Okay, so we have hopefully started to understand the consequences of believing the lie(s). Often the consequences will tie-together some other lies which you might have overlooked before. For me it is about convincing me I am not capable of doing what God has called me to do. So what does this look like? When I am chasing after my Chazown, I often face challenges which are well…challenging. It is here where I start to hear/feel thoughts such as..“I’m/You’re not smart enough”, “I don’t understand this.” “I‘ll never get this.”
+
+## Breaking It Down
+
+For instance, I am working on a piece of code and I can not seem to get it to work. One of these thoughts will speak into the situation. I continue to battle through seeking a solution. Another tactic I’ll face is being overwhelmed. Overwhelmed with information, emotion or the sense that this is somehow beyond me. All of a sudden, I am faced with another thought of “I am not able to do this.” Programming is a funny field in which you can work at something for years and still feel less than qualified. These type of thoughts are not all specific to me, many programmers face these challenges. What is specific to my situation are the ways in which these lies work together to derail my future.,1,p,In the midst of all of this, it is extremely common for me to feel an overwhelming sense of fear. This fear is based on a different lie. This is where two lies come together for me. It is much like a boxing match. One of these lies on their own is not a devastating blow, but if you stack them together in a sequence they prove quite effective. Doubt-doubt, and FEAR! Doubt-doubt, and FEAR!
+
+## Finding Victory
+
+When we start to understand the lie(s) we give ourselves a sense of hope. Combining the power of prayer with this process of understanding creates momentum. Seeking God in understanding the lie(s), pursuit of God’s truth, and continued prayer will lead to victories. These victories will provide you with the momentum you need to continue to move forward. Remember to stop and give God the glory all along the way. Before you know it you are on your way to the full-life God has promised us!
+
+If we truly seek to embrace the full-life God has created for us, we cannot continue to believe lies which set themselves up against the knowledge of God.  These lies lead to agreements and both equally prevent us from living a full life which God created for us.  Let us all agree that there is work to be done.  We must expose the lies, <a href=/articles/naming-the-lies>name the lies</a>, and understand them before we go into battle against them.  We want to destroy them and rightfully so because of all the hurt they have caused us.  Not properly understanding them continues to make us vulnerable to their attacks. Take a moment really quick to pray.  This is no joke.  Pray asking for God’s clarity, His protection, and His blessing as you begin to seek the truth from God.
+
+## How to Understand the Lies?
+
+Keep in mind that the lies always have a purpose. So start by asking what purpose the lies serve in your life?  What are the consequences of you believing the lie versus disproving the lie?  If you cannot see the consequences, keep asking God to bring clarity to the process.  Keep asking yourself about the consequences of believing the lie.  For me personally, believing the lie keeps me from my [Chazown](https://www.life.church/chazown), it keeps me from using my God-given gifts to glorify God, and ultimately it takes me out of the race God has called me to run.  Believing the lie for me has <strong>great</strong>, <strong>eternal</strong> consequences. Determine what is at stake here.  These consequences ultimately effect God’s Kingdom.  If I am not fulfilling the role or part which God created me to play, there is a need which is not being met.  So, yeah… these lies have some real consequences.  This is not just about me any longer.  Trust me in that you will at some point believe that these struggles are isolated to you.  Do NOT believe it…keep digging in.  Do NOT be surprised if the Enemy shows up in the middle of this in some way.  No, I am not saying he is going to magically appear in a red suit wearing horns. ;)  Look for his fingerprints, be prepared to see his involvement in your lies, but DO NOT back down!
+
+## Caution
+
+A word of warning.  When you start to see evidence of the Enemy’s involvement in your lie(s), it is super easy to get scared, to feel intimidated, or to start doubting the process.  It is not uncommon to be flooded with weird thoughts or emotions.  You might start to think that I, Craig, am a little off-kilter and this is just not for you.  Fair enough.  I have to admit that all of this stuff can seem kind of strange, but I am not here to sell you on anything.  I am simply sharing what is/has been happening in my story.  I hope and pray that God will use this in the lives of others to help them find freedom from the lies.  If you start down the path and the Enemy shows up, it is time to tell another believer you trust.  In fact, I would encourage you to share this with another believer before starting down the path.
+
+## Moving Forward
+
+Okay, so we have hopefully started to understand the consequences of believing the lie(s).  Often the consequences will tie-together some other lies which you might have overlooked before.  For me it is about convincing me I am not capable of doing what God has called me to do.  So what does this look like?  When I am chasing after my Chazown, I often face challenges which are well…challenging. It is here where I start to hear/feel thoughts such as..“I’m/You’re not smart enough”, “I don’t understand this.” “I‘ll never get this.”
+
+## Breaking It Down
+
+For instance, I am working on a piece of code and I can not seem to get it to work.  One of these thoughts will speak into the situation.  I continue to battle through seeking a solution.  Another tactic I’ll face is being overwhelmed.  Overwhelmed with information, emotion or the sense that this is somehow beyond me.  All of a sudden, I am faced with another thought of “I am not able to do this.”  Programming is a funny field in which you can work at something for years and still feel less than qualified.  These type of thoughts are not all specific to me, many programmers face these challenges.  What is specific to my situation are the ways in which these lies work together to derail my future. In the midst of all of this, it is extremely common for me to feel an overwhelming sense of fear.  This fear is based on a different lie.  This is where two lies come together for me.    It is much like a boxing match.  One of these lies on their own is not a devastating blow, but if you stack them together in a sequence they prove quite effective.  Doubt-doubt, and FEAR!  Doubt-doubt, and FEAR!
+
+## Finding Victory
+
+When we start to understand the lie(s) we give ourselves a sense of hope.  Combining the power of prayer with this process of understanding creates momentum.  Seeking God in understanding the lie(s), pursuit of God’s truth, and continued prayer will lead to victories.  These victories will provide you with the momentum you need to continue to move forward.  Remember to stop and give God the glory all along the way.  Before you know it you are on your way to the full-life God has promised us!

@@ -10,7 +10,7 @@ export default class BlogIndexPage extends React.Component {
 				<div
 					className='full-width-image margin-top-0'
 					style={{
-						backgroundImage: `url('/img/blog-index.jpg')`
+						backgroundImage: `url('/img/blog-index.jpg')`,
 					}}
 				>
 					<div
@@ -21,7 +21,7 @@ export default class BlogIndexPage extends React.Component {
 							lineHeight: '1',
 							justifyContent: 'space-around',
 							alignItems: 'left',
-							flexDirection: 'column'
+							flexDirection: 'column',
 						}}
 					>
 						<h1 className='has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen'>
