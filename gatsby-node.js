@@ -1,4 +1,4 @@
-const siteConfig = require('./data/siteConfig');
+const siteConfig = require('./data/SiteConfig');
 const _ = require('lodash');
 const path = require('path');
 const moment = require('moment');
@@ -64,11 +64,12 @@ exports.createPages = async ({ actions, graphql }) => {
 		throw new Error(query.errors);
 	}
 
+	const postsEdges = response.data.blog.edges;
 	const { blog } = response.data;
 
 	//const posts = result.data.allMarkdownRemark.edges;
 	// Number of posts per page
-	const postsPerPage = 5;
+	const { postsPerPage } = siteConfig;
 	// Number of pages
 	//const numPages = Math.ceil(posts.length / postsPerPage);
 	const numPages = Math.ceil(blog.edges.length / postsPerPage);
@@ -78,6 +79,7 @@ exports.createPages = async ({ actions, graphql }) => {
 		const next = index === 0 ? `` : arr[index - 1].node;
 		const prev = index === arr.length - 1 ? `` : arr[index + 1].node;
 		const id = node.id;
+
 		createPage({
 			path: node.fields.slug,
 			tags: node.frontmatter.tags,
