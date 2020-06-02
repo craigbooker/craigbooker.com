@@ -6,7 +6,7 @@ import facebook from '../img/social/facebook.svg';
 import instagram from '../img/social/instagram.svg';
 import twitter from '../img/social/twitter.svg';
 import vimeo from '../img/social/vimeo.svg';
-import config from '../../data/siteConfig';
+import config from '../../data/SiteConfig';
 //const config = require('./src/data/config');
 
 const Footer = class extends React.Component {
@@ -25,13 +25,8 @@ const Footer = class extends React.Component {
 											</Link>
 										</li>
 										<li>
-											<Link className='navbar-item' to='/apps'>
-												Apps
-											</Link>
-										</li>
-										<li>
-											<Link className='navbar-item' to='/portfolio'>
-												Projects
+											<Link className='navbar-item' to='/'>
+												Home
 											</Link>
 										</li>
 									</ul>
