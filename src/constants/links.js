@@ -13,10 +13,6 @@ export default [
 		text: 'blog',
 	},
 	{
-		path: '/apps',
-		text: 'apps',
-	},
-	{
 		path: '/contact',
 		text: 'contact',
 	},
