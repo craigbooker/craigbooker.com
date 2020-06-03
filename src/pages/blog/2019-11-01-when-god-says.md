@@ -1,6 +1,5 @@
 ---
 templateKey: 'blog-post'
-slug: '2019-11-01-when-god-says'
 title: 'When God Says...'
 image: /img/blog/whenGodSays.png
 featuredimage: /img/blog/whenGodSays.png

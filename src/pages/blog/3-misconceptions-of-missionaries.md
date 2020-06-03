@@ -1,8 +1,7 @@
 ---
 templateKey: 'blog-post'
 title: '3 Misconceptions of Missionaries'
-slug: '3-misconceptions-of-missionaries'
-category: "Jesus"
+image: /img/blog/chemex.jpg
 featuredimage: /img/blog/chemex.jpg
 date: '2017-01-19'
 emoji: 😃
@@ -11,7 +10,6 @@ description:
 tags:
   - Everyday Missionary
   - Jesus
-image: /img/blog/chemex.jpg
 ---
 
 What if I told you that your definition of a missionary could be completely off? The view held by the majority of Christians today about missionaries is false. The misconceptions held by the Christian church prevents them from being truly impactful for the Kingdom of God. In this series, I will examen the common perspective about missionaries, define what/who a missionary is, and challenge each of you to embrace the role God has for you in His Kingdom.

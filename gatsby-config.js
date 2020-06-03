@@ -1,4 +1,4 @@
-const config = require('./data/SiteConfig');
+const config = require('./data/siteConfig');
 
 module.exports = {
 	siteMetadata: {
@@ -22,6 +22,7 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-google-analytics`,
 			options: {
+				// replace "UA-XXXXXXXXX-X" with your own Tracking ID
 				trackingId: config.googleAnalyticsID,
 			},
 		},
@@ -63,6 +64,9 @@ module.exports = {
 					{
 						resolve: 'gatsby-remark-images',
 						options: {
+							// It's important to specify the maxWidth (in pixels) of
+							// the content container as this plugin uses this as the
+							// base for generating different widths of each image.
 							maxWidth: 2048,
 						},
 					},
@@ -73,6 +77,12 @@ module.exports = {
 						},
 					},
 				],
+			},
+		},
+		{
+			resolve: 'gatsby-plugin-netlify-cms',
+			options: {
+				modulePath: `${__dirname}/src/cms/cms.js`,
 			},
 		},
 		{
