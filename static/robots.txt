@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: */tags/
+Disallow: */categories/
+Disallow: */series/
+
+sitemap: https://gatsby-advanced-starter-demo.netlify.com/sitemap.xml

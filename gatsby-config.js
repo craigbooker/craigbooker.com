@@ -1,97 +1,199 @@
-const config = require('./data/siteConfig');
+const urljoin = require('url-join');
+const path = require('path');
+const config = require('./data/SiteConfig');
 
 module.exports = {
+	pathPrefix: config.pathPrefix === '' ? '/' : config.pathPrefix,
 	siteMetadata: {
 		title: config.siteTitle,
-		description: config.defaultDescription,
-		author: config.author,
-		twitterUsername: config.userTwitter,
-		image: '/og-image.jpg',
-		siteUrl: config.url,
+		description: config.siteDescription,
+		siteUrl: urljoin(config.siteUrl, config.pathPrefix),
+		rssMetadata: {
+			site_url: urljoin(config.siteUrl, config.pathPrefix),
+			feed_url: urljoin(config.siteUrl, config.pathPrefix, config.siteRss),
+			title: config.siteTitle,
+			description: config.siteDescription,
+			image_url: `${urljoin(
+				config.siteUrl,
+				config.pathPrefix
+			)}/logos/logo-512.png`,
+			copyright: config.copyright,
+		},
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
-		'gatsby-plugin-sass',
-		'gatsby-plugin-robots-txt',
+		'gatsby-plugin-lodash',
 		{
-			resolve: `gatsby-plugin-sitemap`,
-			options: {
-				exclude: ['/tags/*'],
-			},
-		},
-		{
-			resolve: `gatsby-plugin-google-analytics`,
-			options: {
-				// replace "UA-XXXXXXXXX-X" with your own Tracking ID
-				trackingId: config.googleAnalyticsID,
-			},
-		},
-		{
-			// keep as first gatsby-source-filesystem plugin for gatsby image support
 			resolve: 'gatsby-source-filesystem',
 			options: {
-				path: `${__dirname}/static/img`,
-				name: 'uploads',
+				name: 'assets',
+				path: `${__dirname}/static/`,
 			},
 		},
 		{
 			resolve: 'gatsby-source-filesystem',
 			options: {
-				path: `${__dirname}/src/pages`,
-				name: 'pages',
+				name: 'mdPosts',
+				path: `${__dirname}/content/`,
 			},
 		},
 		{
 			resolve: 'gatsby-source-filesystem',
 			options: {
-				path: `${__dirname}/src/img`,
-				name: 'images',
+				name: 'posts',
+				path: `${__dirname}/content/posts`,
 			},
 		},
-		'gatsby-plugin-sharp',
-		'gatsby-transformer-sharp',
 		{
-			resolve: 'gatsby-transformer-remark',
+			resolve: 'gatsby-source-filesystem',
 			options: {
-				plugins: [
-					`gatsby-remark-reading-time`,
-					{
-						resolve: 'gatsby-remark-relative-images',
-						options: {
-							name: 'uploads',
-						},
-					},
+				name: 'series',
+				path: `${__dirname}/content/series`,
+			},
+		},
+		`gatsby-remark-images`,
+		{
+			resolve: `gatsby-plugin-mdx`,
+			options: {
+				gatsbyRemarkPlugins: [
 					{
 						resolve: 'gatsby-remark-images',
-						options: {
-							// It's important to specify the maxWidth (in pixels) of
-							// the content container as this plugin uses this as the
-							// base for generating different widths of each image.
-							maxWidth: 2048,
-						},
-					},
-					{
-						resolve: 'gatsby-remark-copy-linked-files',
-						options: {
-							destinationDir: 'static',
-						},
 					},
 				],
 			},
 		},
 		{
-			resolve: 'gatsby-plugin-netlify-cms',
+			resolve: 'gatsby-transformer-remark',
 			options: {
-				modulePath: `${__dirname}/src/cms/cms.js`,
+				plugins: [
+					{
+						resolve: `gatsby-remark-relative-images`,
+					},
+					{
+						resolve: 'gatsby-remark-images',
+						options: {
+							maxWidth: 690,
+						},
+					},
+					{
+						resolve: 'gatsby-remark-responsive-iframe',
+					},
+					'gatsby-remark-copy-linked-files',
+					'gatsby-remark-autolink-headers',
+					'gatsby-remark-prismjs',
+				],
 			},
 		},
 		{
-			resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
+			resolve: 'gatsby-plugin-google-analytics',
 			options: {
-				develop: true, // Activates purging in npm run develop
-				purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
+				trackingId: config.googleAnalyticsID,
 			},
-		}, // must be after other CSS plugins
-		'gatsby-plugin-netlify', // make sure to keep it last in the array
+		},
+		{
+			resolve: 'gatsby-plugin-nprogress',
+			options: {
+				color: config.themeColor,
+			},
+		},
+		'gatsby-plugin-sharp',
+		'gatsby-transformer-sharp',
+		'gatsby-plugin-playground',
+		'gatsby-plugin-styled-components',
+		'gatsby-plugin-transition-link',
+		'gatsby-plugin-catch-links',
+		'gatsby-plugin-twitter',
+		'gatsby-plugin-sitemap',
+		{
+			resolve: 'gatsby-plugin-manifest',
+			options: {
+				name: config.siteTitle,
+				short_name: config.siteTitleShort,
+				description: config.siteDescription,
+				start_url: config.pathPrefix,
+				background_color: config.backgroundColor,
+				theme_color: config.themeColor,
+				display: 'minimal-ui',
+				icons: [
+					{
+						src: '/logos/logo-192.png',
+						sizes: '192x192',
+						type: 'image/png',
+					},
+					{
+						src: '/logos/logo-512.png',
+						sizes: '512x512',
+						type: 'image/png',
+					},
+				],
+			},
+		},
+		'gatsby-plugin-offline',
+		{
+			resolve: 'gatsby-plugin-feed-mdx',
+			options: {
+				query: `
+        {
+          site {
+            siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+            }
+          }
+        }
+      `,
+				feeds: [
+					{
+						serialize: ({ query: { site, allMdx } }) => {
+							return allMdx.edges.map((edge) => {
+								return Object.assign({}, edge.node.frontmatter, {
+									description: edge.node.excerpt,
+									date: edge.node.frontmatter.date,
+									url:
+										site.siteMetadata.site_url +
+										'/blog' +
+										edge.node.fields.slug,
+									guid:
+										site.siteMetadata.siteUrl + '/blog' + edge.node.fields.slug,
+									custom_elements: [{ 'content:encoded': edge.node.html }],
+								});
+							});
+						},
+						query: `
+            {
+              allMdx(
+                sort: { order: DESC, fields: [frontmatter___date] },
+              ) {
+                edges {
+                  node {
+                    id
+                    excerpt
+                    html
+                    timeToRead
+                    fields {
+                      slug
+                      date
+                    }
+                    frontmatter {
+                      title
+                      tags
+                      date
+                      category
+                      tags
+                    }
+                  }
+                }
+              }
+            }
+          `,
+						output: config.siteRss,
+						title: config.siteRssTitle,
+						match: '^/blog/',
+					},
+				],
+			},
+		},
 	],
 };
