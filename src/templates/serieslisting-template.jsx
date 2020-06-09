@@ -1,9 +1,9 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import AniLink from 'gatsby-plugin-transition-link/AniLink';
 import Layout from '../components/layout';
-import SeriesListing from '../components/Series/SeriesListing';
+import AllSeriesListing from '../components/Series/AllSeriesListing';
 import Title from '../components/Title';
 import SEO from '../components/SEO/SEO';
 import config from '../../data/SiteConfig';
@@ -23,19 +23,28 @@ class SeriesListingTemplate extends React.Component {
 
 		return (
 			<div className={styles.links}>
-				{!isFirstPage && <Link to={prevPage}>Previous</Link>}
+				{!isFirstPage && (
+					<AniLink fade to={prevPage}>
+						Previous
+					</AniLink>
+				)}
 				{[...Array(pageCount)].map((_val, index) => {
 					const pageNum = index + 1;
 					return (
-						<Link
+						<AniLink
+							fade
 							key={`listing-page-${pageNum}`}
 							to={pageNum === 1 ? '/series' : `/series/page/${pageNum}/`}
 						>
 							{pageNum}
-						</Link>
+						</AniLink>
 					);
 				})}
-				{!isLastPage && <Link to={nextPage}>Next</Link>}
+				{!isLastPage && (
+					<AniLink fade to={nextPage}>
+						Next
+					</AniLink>
+				)}
 			</div>
 		);
 	}
@@ -49,7 +58,7 @@ class SeriesListingTemplate extends React.Component {
 				<SEO />
 				<section className={styles.blog}>
 					<Title title='series' subtitle='' />
-					<SeriesListing seriesEdges={seriesEdges} />
+					<AllSeriesListing seriesEdges={seriesEdges} />
 
 					<section>{this.renderPaging()}</section>
 				</section>

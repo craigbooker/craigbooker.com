@@ -22,8 +22,6 @@ export default class SeriesTemplate extends React.Component {
 					<div className='series-center'>
 						<h4>{series}</h4>
 					</div>
-
-					{/* <PostListing postEdges={postEdges} /> */}
 					<SeriesListing seriesEdges={seriesEdges} />
 				</div>
 			</Layout>

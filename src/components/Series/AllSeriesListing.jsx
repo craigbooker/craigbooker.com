@@ -1,18 +1,18 @@
 import React from 'react';
-import SeriesCard from './SeriesCard';
+import AllSeriesCard from './AllSeriesCard';
 import styles from '../../css/blog.module.css';
 
-class SeriesListing extends React.Component {
+class AllSeriesListing extends React.Component {
 	render() {
 		const { seriesEdges } = this.props;
 		return (
 			<div className={styles.center}>
 				{seriesEdges.map(({ node }, index) => {
-					return <SeriesCard key={index} series={node} />;
+					return <AllSeriesCard key={index} series={node} />;
 				})}
 			</div>
 		);
 	}
 }
 
-export default SeriesListing;
+export default AllSeriesListing;

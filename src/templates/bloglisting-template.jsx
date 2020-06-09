@@ -1,6 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import AniLink from 'gatsby-plugin-transition-link/AniLink';
 import Layout from '../components/layout';
 import BlogListing from '../components/Blog/BlogListing';
@@ -22,14 +22,15 @@ class BlogListingTemplate extends React.Component {
 		return (
 			<section className={styles.links}>
 				{!isFirst && (
-					<Link to={prevPage} className={styles.link}>
+					<AniLink fade to={prevPage} className={styles.link}>
 						Previous
-					</Link>
+					</AniLink>
 				)}
 				{[...Array(pageCount)].map((_val, index) => {
 					const pageNum = index + 1;
 					return (
-						<Link
+						<AniLink
+							fade
 							key={`listing-page-${pageNum}`}
 							to={pageNum === 1 ? '/blog' : `/blog/page/${pageNum}/`}
 							className={
@@ -39,13 +40,13 @@ class BlogListingTemplate extends React.Component {
 							}
 						>
 							{pageNum}
-						</Link>
+						</AniLink>
 					);
 				})}
 				{!isLast && (
-					<Link to={nextPage} className={styles.link}>
+					<AniLink fade to={nextPage} className={styles.link}>
 						Next
-					</Link>
+					</AniLink>
 				)}
 			</section>
 		);

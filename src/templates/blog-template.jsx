@@ -13,15 +13,15 @@ const BlogPostTemplate = ({ data, pageContext }) => {
 	const img = cover.childImageSharp.fluid;
 
 	console.log(postNode);
-	const post = postNode.frontmatter;
-	const prev = pageContext.prev
-		? {
-				path: `${pageContext.prev.frontmatter.path}`,
-				title: pageContext.prev.frontmatter.title,
-				excerpt:
-					pageContext.prev.frontmatter.description || pageContext.prev.excerpt,
-		  }
-		: null;
+	//const post = postNode.frontmatter;
+	// const prev = pageContext.prev
+	// 	? {
+	// 			path: `${pageContext.prev.frontmatter.path}`,
+	// 			title: pageContext.prev.frontmatter.title,
+	// 			excerpt:
+	// 				pageContext.prev.frontmatter.description || pageContext.prev.excerpt,
+	// 	  }
+	// 	: null;
 
 	return (
 		<Layout>

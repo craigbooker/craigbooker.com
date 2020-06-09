@@ -89,11 +89,9 @@ exports.createPages = async ({ graphql, actions }) => {
 
 	// Individual Item Pages
 	const postPage = path.resolve('src/templates/blog-template.jsx');
-	const seriesPostPage = path.resolve('src/templates/series-template.jsx');
+	const seriesPage = path.resolve('src/templates/series.jsx');
 	const tagPage = path.resolve('src/templates/tag.jsx');
 	const categoryPage = path.resolve('src/templates/category.jsx');
-
-	const seriesPage = path.resolve('src/templates/series.jsx');
 
 	// List of Items Pages
 	const listingPage = path.resolve('./src/templates/listing.jsx');
@@ -217,28 +215,6 @@ exports.createPages = async ({ graphql, actions }) => {
 			component: landingPage,
 		});
 	}
-
-	// Create series pages
-	// seriesEdges.forEach((edge, index) => {
-	// 	const nextID = index + 1 < seriesEdges.length ? index + 1 : 0;
-	// 	const prevID = index - 1 >= 0 ? index - 1 : seriesEdges.length - 1;
-	// 	const nextEdge = seriesEdges[nextID];
-	// 	const prevEdge = seriesEdges[prevID];
-
-	// 	createPage({
-	// 		path: `/series${edge.node.frontmatter.path}/`,
-	// 		component: seriesPostPage,
-	// 		context: {
-	// 			slug: edge.node.fields.slug,
-	// 			id: edge.node.id,
-	// 			series: edge.node.frontmatter.series,
-	// 			nexttitle: nextEdge.node.frontmatter.title,
-	// 			nextslug: nextEdge.node.fields.slug,
-	// 			prevtitle: prevEdge.node.frontmatter.title,
-	// 			prevslug: prevEdge.node.fields.slug,
-	// 		},
-	// 	});
-	// });
 
 	// Create post pages
 	postsEdges.forEach((edge, index) => {

@@ -1,6 +1,5 @@
 import React from 'react';
-import Helmet from 'react-helmet';
-import { StaticQuery, graphql, Link } from 'gatsby';
+import { StaticQuery, graphql } from 'gatsby';
 import AniLink from 'gatsby-plugin-transition-link/AniLink';
 import FeaturedSeriesCard from '../Home/FeaturedSeriesCard';
 import Title from '../Title';

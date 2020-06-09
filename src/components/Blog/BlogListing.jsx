@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'gatsby';
 import BlogCard from './BlogCard';
 import styles from '../../css/blog.module.css';
 
