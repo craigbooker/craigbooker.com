@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
+import Image from 'gatsby-image';
 import urljoin from 'url-join';
 import config from '../../../data/SiteConfig';
 import moment from 'moment';

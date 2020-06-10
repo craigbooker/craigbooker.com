@@ -1,5 +1,14 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+
+import Img from 'gatsby-image';
+import styled from 'styled-components';
+
+import Helmet from 'react-helmet';
+
+import PageTitle from '../elements/PageTitle';
+import config from '../../data/SiteConfig';
+
 import Layout from '../components/layout';
 import StyledHero from '../components/StyledHero';
 import Banner from '../components/Banner';

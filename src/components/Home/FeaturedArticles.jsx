@@ -1,8 +1,10 @@
 import React from 'react';
-import { StaticQuery, graphql } from 'gatsby';
+import Helmet from 'react-helmet';
+import { StaticQuery, graphql, Link } from 'gatsby';
 import AniLink from 'gatsby-plugin-transition-link/AniLink';
 import BlogCard from '../Blog/BlogCard';
 import Title from '../Title';
+import config from '../../../data/SiteConfig';
 import styles from '../../css/items.module.css';
 import '../../css/listing.css';
 

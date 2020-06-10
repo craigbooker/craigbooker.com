@@ -1,4 +1,5 @@
 import React from 'react';
+import AniLink from 'gatsby-plugin-transition-link/AniLink';
 import Title from '../Title';
 import styles from '../../css/about.module.css';
 import { useStaticQuery, graphql } from 'gatsby';

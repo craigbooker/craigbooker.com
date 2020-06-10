@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
 import { Link } from 'gatsby';
-import SeriesCard from './SeriesCard';
+import BlogCard from '../Blog/BlogCard';
+import FeaturedSeriedCard from './FeaturedSeriesCard';
 import styles from '../../css/blog.module.css';
 
-class SeriesListing extends React.Component {
+class FeaturedSeriesListing extends React.Component {
 	render() {
 		const { seriesEdges } = this.props;
 		return (
 			<div className={styles.center}>
 				{seriesEdges.map(({ node }, index) => {
-					return <SeriesCard key={index} series={node} />;
+					return <FeaturedSeriesCard key={index} series={node} />;
 				})}
 			</div>
 		);
 	}
 }
 
-export default SeriesListing;
+export default FeaturedSeriesListing;

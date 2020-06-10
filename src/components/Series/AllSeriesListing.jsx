@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { Link } from 'gatsby';
 import AllSeriesCard from './AllSeriesCard';
 import styles from '../../css/blog.module.css';
 
